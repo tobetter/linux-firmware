@@ -1574,10 +1574,6 @@ File: ipw2100-1.3.fw, ipw2100-1.3-i.fw, ipw2100-1.3-p.fw
 Info: v1.3
 
 License: Redistributable. See LICENCE.ipw2100 for details
-<<<<<<< HEAD
->>>>>>> ipw2100: Added firmware and license files
-=======
-
 --------------------------------------------------------------------------
 
 Driver: zd1211rw - ZD1211 USB-WLAN driver for Linux
@@ -1587,4 +1583,12 @@ File: zd1211b_ub,zd1211b_uphm,zd1211b_ur,zd1211_uph,zd1211_uphr,zd1211b_uph,zd12
 Info: http://linux-lc100020.sourceforge.net/
 
 License: Redistributable. See LICENCE.zd1211 for details
->>>>>>> zd1211: Added firmware and license files
+--------------------------------------------------------------------------
+
+Driver: zd1201 - Driver for ZyDAS zd1201 based wireless USB devices.
+
+File: zd1201-ap.fw,zd1201.fw
+Info: http://linux-lc100020.sourceforge.net/
+
+License: Redistributable. See LICENCE.zd1201 for details
+>>>>>>> zd1201: Added firmware and license files
