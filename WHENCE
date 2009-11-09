@@ -1557,3 +1557,12 @@ File: ar3k/AthrBT_0x01020001.dfu
 File: ar3k/ramps_0x01020001_26.dfu
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+--------------------------------------------------------------------------
+
+Driver: ipw2200 - Intel ipw2200 wireless driver
+
+File: ipw2200-bss.fw, ipw2200-ibss.fw, ipw2200-sniffer.fw
+Info: version unknown
+
+License: Redistributable. See LICENCE.ipw2200 for details
+>>>>>>> ipw2200: Added firmware and license files
