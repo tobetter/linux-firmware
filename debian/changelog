@@ -1,3 +1,12 @@
+linux-firmware (1.79.2) precise-proposed; urgency=low
+
+  * 0a9640c85c781a4ec0c82f16fbf7333b7ce6daa6 ar3k: add patch and sysconfig for Qualcomm Atheros AR9462
+    4a91e8c9f1e433143cf900487fbef01aa8b4c869 Update rampatch file for AR9462.
+    (both patches from upstream git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git)
+    - LP: #1024884 
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Tue, 11 Dec 2012 08:21:50 -0700
+
 linux-firmware (1.79.1) precise-proposed; urgency=low
 
   * iwlwifi: update firmware for 6205
