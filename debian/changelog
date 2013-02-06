@@ -1,3 +1,10 @@
+linux-firmware (1.79.3) precise-proposed; urgency=low
+
+  * Add AMD microcode.
+    -LP: #1068299
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Wed, 06 Feb 2013 06:15:34 -0700
+
 linux-firmware (1.79.2) precise-proposed; urgency=low
 
   * 0a9640c85c781a4ec0c82f16fbf7333b7ce6daa6 ar3k: add patch and sysconfig for Qualcomm Atheros AR9462
