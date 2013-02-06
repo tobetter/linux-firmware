@@ -1,3 +1,10 @@
+linux-firmware (1.95.1) quantal-proposed; urgency=low
+
+  * Add AMD microcode.
+    -LP: #1068299 
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Wed, 06 Feb 2013 06:07:24 -0700
+
 linux-firmware (1.95) quantal-proposed; urgency=low
 
   * rtlwifi/rtl8712u Revert firmware
