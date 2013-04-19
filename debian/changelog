@@ -1,3 +1,10 @@
+linux-firmware (1.79.4) precise-proposed; urgency=low
+
+  * Add rt2x00 firmware file rt3290.bin
+    -LP: #1049466
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 19 Apr 2013 13:31:28 -0600
+
 linux-firmware (1.79.3) precise-proposed; urgency=low
 
   * Add AMD microcode.
