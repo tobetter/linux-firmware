@@ -1931,3 +1931,12 @@ Version: 2013-07-10
 License: Redistributable. See LICENSE.amd-ucode for details
 
 --------------------------------------------------------------------------
+
+Driver: btusb - Bluetooth USB driver
+
+File: intel/ibt-default-37.7.bseq
+File: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
+
+Licence: Redistributable. See LICENCE.ibt_firmware for details
+
+--------------------------------------------------------------------------
