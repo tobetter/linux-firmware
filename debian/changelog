@@ -1,3 +1,14 @@
+linux-firmware (1.79.5) precise-proposed; urgency=low
+
+  * UBUNTU: Update asihpi firmware. The original firmware files were
+    simply non-functional.
+    -LP: #1122377
+  * rtlwifi/rtl8723e: Add firmware for new driver in LTS kernels,
+    Raring and newer.
+    -LP: #1187688
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 11 Jul 2013 06:34:58 -0600
+
 linux-firmware (1.79.4) precise-proposed; urgency=low
 
   * Add rt2x00 firmware file rt3290.bin
