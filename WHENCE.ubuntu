@@ -155,11 +155,3 @@ Licence: Redistributable, provided by Atheros
 
 Info: git://git.kernel.org/pub/scm/linux/kernel/git/chr/carl9170fw.git
 --------------------------------------------------------------------------
-
-Driver amd-ucode - AMD microcode loaded by the kernel.
-
-Files: amd-ucode/*
-Licence: Redistributable, provided by AMD in their copyright notice. See LICENCE.amd-ucode
-
---------------------------------------------------------------------------
-
