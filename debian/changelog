@@ -1,3 +1,13 @@
+linux-firmware (1.79.6) precise-proposed; urgency=low
+
+  * 31f6b3076bab3c4b65f67fdb232f4579ed828b4f linux-firmware: Update AMD microcode patch firmware files
+    This AMD ucode fixes some severe lockup issues on AMD family
+    15h CPUs when under high load. The fix for erratum #759 being
+    the most severe.
+    - LP: #1200533
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 12 Jul 2013 08:04:42 -0600
+
 linux-firmware (1.79.5) precise-proposed; urgency=low
 
   * UBUNTU: Update asihpi firmware. The original firmware files were
