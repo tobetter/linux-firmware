@@ -1,3 +1,13 @@
+linux-firmware (1.79.7) precise-proposed; urgency=low
+
+  * rtlwifi: rtl8192ce: rtl8192se: rtl8192de: Update to rtl_92ce_92se_92de_linux_mac80211_0004.0816.2011 driver
+    Upstream cherry-pick e0836e6ec3568f54b7fac24b9e17bbe8c46eb508
+    Adds new firmware files rtlwifi/rtl8192cfwU.bin and rtlwifi/rtl8192cfwU_B.bin in support of linux v3.2
+    Updates for rtl8192se and rtl8192de
+    -LP: #1239414
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Tue, 15 Oct 2013 09:05:29 -0600
+
 linux-firmware (1.79.6) precise-proposed; urgency=low
 
   * 31f6b3076bab3c4b65f67fdb232f4579ed828b4f linux-firmware: Update AMD microcode patch firmware files
