@@ -1,3 +1,10 @@
+linux-firmware (1.79.8) precise-proposed; urgency=low
+
+  * Add firmware files for QCA9564(Aphrodite)
+    -LP: #1245345 
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 28 Oct 2013 13:09:54 -0600
+
 linux-firmware (1.79.7) precise-proposed; urgency=low
 
   * rtlwifi: rtl8192ce: rtl8192se: rtl8192de: Update to rtl_92ce_92se_92de_linux_mac80211_0004.0816.2011 driver
