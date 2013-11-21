@@ -1,3 +1,13 @@
+linux-firmware (1.79.9) precise; urgency=low
+
+  * Add Intel bluetooth files
+    linux-firmware: Add firmware patch file for Intel Bluetooth device(3160)
+    linux-firmware: update Intel Bluetooth firmware patch file
+    Add Intel Bluetooth firmware patch files
+    -LP: #1011423
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 21 Nov 2013 09:41:21 -0700
+
 linux-firmware (1.79.8) precise-proposed; urgency=low
 
   * Add firmware files for QCA9564(Aphrodite)
