@@ -1,3 +1,15 @@
+linux-firmware (1.79.10) precise; urgency=low
+
+  * iwlwifi: add firmware for 7260 / 3160 devices 
+    Support for linux v3.10+
+    -LP: #1265550
+  * linux-firmware: Add Brocade FC/FCOE Adapter firmware files
+    linux-firmware: 3.2.3.0 Firmware for Brocade Adapters
+    Support for linux v3.10+
+    -LP: #1265551
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 02 Jan 2014 08:23:19 -0700
+
 linux-firmware (1.79.9) precise; urgency=low
 
   * Add Intel bluetooth files
