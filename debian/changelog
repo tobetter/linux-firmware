@@ -1,3 +1,11 @@
+linux-firmware (1.116.1) saucy; urgency=low
+
+  * iwlwifi: update firmware for 7260 / 3160 devices
+    22.0.7.0 --> 22.1.7.0
+    -LP: #1265436
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 03 Jan 2014 12:47:22 -0700
+
 linux-firmware (1.116) saucy; urgency=low
 
   * UBUNTU: SAUCE: ath10k: Add firmware
