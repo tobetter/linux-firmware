@@ -1,3 +1,11 @@
+linux-firmware (1.116.2) saucy; urgency=medium
+
+  * iwlwifi: update firmware for 7260 / 3160 devices 
+    Add iwlwifi-7260-8.ucode and iwlwifi-3160-8.ucode
+    -LP: #1274622
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 31 Jan 2014 12:47:49 +0000
+
 linux-firmware (1.116.1) saucy; urgency=low
 
   * iwlwifi: update firmware for 7260 / 3160 devices
