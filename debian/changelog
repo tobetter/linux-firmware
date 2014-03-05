@@ -1,3 +1,17 @@
+linux-firmware (1.79.12) precise; urgency=low
+
+  * Update firmware for 7260 / 3160 devices (Wilkins Peak)
+    https://bugs.launchpad.net/intel/+bug/1265436/comments/13
+    Quote from the release note:
+      "This firmware is supported starting 3.13 kernel.
+      We have a here quite a few bug fixes with a few new features.
+      Most of the improvements concern P2P client and GO modes."
+    This does update existing firmware files, but they are only used by
+    linux 3.13+ (Trusty LTS) which has yet to be released.
+    -LP: #1265436
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Wed, 05 Mar 2014 08:52:48 -0700
+
 linux-firmware (1.79.11) precise; urgency=low
 
   * iwlwifi: add firmware for 7260 / 3160 devices
