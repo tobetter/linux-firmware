@@ -1,3 +1,11 @@
+linux-firmware (1.79.13) precise; urgency=medium
+
+  * Add firmware file to support Intel 7265 (Stone Peak) for linux v3.13+ (linux-lts-trusty)
+    http://wireless.kernel.org/en/users/Drivers/iwlwifi?action=AttachFile&do=get&target=iwlwifi-7265-ucode-22.24.8.0.tgz
+    -LP: #1188092
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 28 Apr 2014 11:36:02 -0600
+
 linux-firmware (1.79.12) precise; urgency=low
 
   * Update firmware for 7260 / 3160 devices (Wilkins Peak)
