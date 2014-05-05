@@ -1,3 +1,10 @@
+linux-firmware (1.127.2) trusty; urgency=medium
+
+  * UBUNTU: Remove iwlwifi-7260-8.ucode for regression
+    -LP: #1293569
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 05 May 2014 15:00:39 -0600
+
 linux-firmware (1.127.1) trusty; urgency=medium
 
   * Add firmware file to support Intel 7265 (Stone Peak) for linux v3.13+
