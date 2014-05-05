@@ -1,3 +1,11 @@
+linux-firmware (1.79.14) precise; urgency=medium
+
+  * Remove iwlwifi-7260-8.ucode for regression
+    The -8 API appears to cause regression on Haswell.
+    -LP: #1293569
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 05 May 2014 14:46:02 -0600
+
 linux-firmware (1.79.13) precise; urgency=medium
 
   * Add firmware file to support Intel 7265 (Stone Peak) for linux v3.13+ (linux-lts-trusty)
