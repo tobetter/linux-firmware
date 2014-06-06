@@ -1,3 +1,11 @@
+linux-firmware (1.79.15) precise; urgency=medium
+
+  * Remove aic94xx-seq.fw and license. It has been pointed out
+    that this firmware is likely not redistributable.
+    -LP: #1101636
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 06 Jun 2014 13:42:08 -0600
+
 linux-firmware (1.79.14) precise; urgency=medium
 
   * Remove iwlwifi-7260-8.ucode for regression
