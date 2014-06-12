@@ -1,3 +1,39 @@
+linux-firmware (1.127.3) trusty; urgency=medium
+
+  * Update firmware files to support Utopic LTS kernel (3.15 so far) 
+    Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git a4f3bc03f1e7b1f25cc52328981c2a35871e55a1
+    README: Update the submission address to linux-firmware@kernel.org
+    firmware: Added fw for qat_dh895xxcc hw crypto accelerator
+    s5p-mfc: Adding MFC v7 and v8 firmwares
+    s5p-mfc: Add s5p-mfc-v6-v2 firmware
+    radeon: add firmware for Mullins/Beema GPUs
+    radeon: add mc2 firmware for SI/CI GPUs
+    rtlwifi: rtl8723be: Add firmware
+    brcm: add firmware for BCM4354 2x2 11ac SDIO device
+    brcm: add firmware for BCM43143 2.4G 11n SDIO device
+    brcm: add firmware for BCM43143 2.4G 11n USB device
+    radeon: add vce ucode for CIK GPUs
+    linux-firmware: Add firmware patch file for Intel Bluetooth 7260 ROM-spin
+    Adding RSI 91x firmware.
+    iwlwifi: add new firmware for 3160 / 7260 / 7265
+    iwlwifi: update firmware for 3160 / 7260 / 7265
+    iwlwifi: add firmware for 7265
+    -LP: #1329375
+  * linux-firmware: Add firmware patch file for Intel Bluetooth Device (7265)
+    -LP: #1329184
+  * firmware: update Intel Bluetooth device firmware patch files
+    linux-firmware: Update Intel BT devices firmware patch files (7260/3160)
+    These patches update firmware patch files for following Intel Bluetooth Devices:
+    - Intel Wireless Bluetooth 7260
+    - Intel Wireless Bluetooth 3160
+    This firmwares fixes
+    - No SCO data over EHCI
+    - Issue with LED blinking
+    - Issue with USB
+    -LP: #1329382
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 12 Jun 2014 09:52:47 -0600
+
 linux-firmware (1.127.2) trusty; urgency=medium
 
   * UBUNTU: Remove iwlwifi-7260-8.ucode for regression
