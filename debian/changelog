@@ -1,3 +1,14 @@
+linux-firmware (1.127.4) trusty; urgency=medium
+
+  * Remove amd64-microcode for licensing reasons.
+    The amd64 microcode is not suitable for packaging in main since
+    the license does not allow modification or disassembly. Install
+    the multiverse package amd64-microcode instead which also contains
+    initramfs hooks.
+    -LP: #1181145
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Wed, 25 Jun 2014 08:56:48 -0600
+
 linux-firmware (1.127.3) trusty; urgency=medium
 
   * Update firmware files to support Utopic LTS kernel (3.15 so far) 
