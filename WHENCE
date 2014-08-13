@@ -2677,3 +2677,10 @@ File: qca/rampatch_00130302.bin
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
 --------------------------------------------------------------------------
+
+Driver: as102 - Abilis Systems Single DVB-T Receiver
+
+File: as102_data1_st.hex
+File: as102_data2_st.hex
+
+License: Redistributable. See LICENCE.Abilis for details
