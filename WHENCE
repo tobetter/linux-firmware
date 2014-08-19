@@ -2495,3 +2495,14 @@ File: r8a779x_usb3_v1.dlmem
 Licence: Redistributable. See LICENCE.r8a779x_usb3 for details.
 
 --------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+
+Driver: it9135 -- ITEtech IT913x DVB-T USB driver
+
+File: dvb-usb-it9135-01.fw
+File: dvb-usb-it9135-02.fw
+
+Licence: Redistributable. See LICENCE.it913x for details
+
+--------------------------------------------------------------------------
