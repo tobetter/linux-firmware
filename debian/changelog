@@ -1,3 +1,11 @@
+linux-firmware (1.127.6) trusty; urgency=medium
+
+  * linux-firmware: Updated firmware patch for Intel Bluetooth 7265
+    linux-firmware: Update firmware patch for Intel BT 7265 
+    -LP: #1368011
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 11 Sep 2014 06:08:35 -0600
+
 linux-firmware (1.127.5) trusty; urgency=medium
 
   * Restore iwlwifi-7260-8.ucode. Testing in http://bugs.launchpad.net/bugs/1293569
