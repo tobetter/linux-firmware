@@ -1,3 +1,15 @@
+linux-firmware (1.79.17) precise; urgency=medium
+
+  * rtlwifi: Add new firmware files for rtl8188eu
+    rtlwifi/rtl8188ee: Add firmware for new driver 
+    These 2 new files are in support of the LTS Trusty kernel.
+    -LP: #1368301
+
+  * Remove LICENSE.amd-ucode
+    Missed it when removing amd64-microcode for licensing reasons.
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 11 Sep 2014 09:46:55 -0600
+
 linux-firmware (1.79.16) precise; urgency=medium
 
   * Remove amd64-microcode for licensing reasons.
