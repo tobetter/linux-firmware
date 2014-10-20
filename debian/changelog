@@ -1,3 +1,11 @@
+linux-firmware (1.127.8) trusty; urgency=medium
+
+  * linux-firmware: Add firmware patch for Intel Bluetooth 7265 ROM-spin(D0)
+    upstream cherry-pick of 0e5f63771d0df6d7859f7c4100a74d737c62ac88
+    -LP: #1383138 
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 20 Oct 2014 08:13:14 -0400
+
 linux-firmware (1.127.7) trusty; urgency=medium
 
   * linux-firmware: Add Intel BT firmware for 3160
