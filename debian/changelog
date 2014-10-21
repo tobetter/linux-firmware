@@ -1,3 +1,11 @@
+linux-firmware (1.127.9) trusty; urgency=medium
+
+  * Restore cxgb3/t3fw-7.12.0.bin which was accidentally dropped
+    when grooming for obsolete firmware.
+    -LP: #1382710
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Tue, 21 Oct 2014 14:54:06 -0400
+
 linux-firmware (1.127.8) trusty; urgency=medium
 
   * linux-firmware: Add firmware patch for Intel Bluetooth 7265 ROM-spin(D0)
