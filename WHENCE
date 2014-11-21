@@ -2685,3 +2685,13 @@ File: as102_data1_st.hex
 File: as102_data2_st.hex
 
 License: Redistributable. See LICENCE.Abilis for details
+
+--------------------------------------------------------------------------
+
+Driver: snd_soc_sst_acpi
+
+File: intel/IntcSST2.bin
+
+License: Redistributable. See LICENCE.IntcSST2 for details
+
+--------------------------------------------------------------------------
