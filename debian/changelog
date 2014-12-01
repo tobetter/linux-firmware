@@ -1,3 +1,10 @@
+linux-firmware (1.138.1) utopic; urgency=medium
+
+  * iwlwifi: update firmware for 3160 / 7260 / 7265
+    -LP: #1398171
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 01 Dec 2014 10:28:25 -0600
+
 linux-firmware (1.138) utopic; urgency=medium
 
   * Add bnx2x firmware to the NIC firmware udeb to support net booting as described
