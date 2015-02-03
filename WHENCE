@@ -2704,3 +2704,11 @@ File: intel/fw_sst_0f28.bin
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
 --------------------------------------------------------------------------
+
+Driver: snd_intel_sst_core
+
+File: intel/fw_sst_22a8.bin
+
+License: Redistributable. See LICENCE.fw_sst_0f28 for details
+
+--------------------------------------------------------------------------
