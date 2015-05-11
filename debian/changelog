@@ -1,3 +1,10 @@
+linux-firmware (1.143.1) vivid; urgency=medium
+
+  * iwlwifi: update -12.ucode for 3160 / 7260 / 7265 / 7265D
+    -LP: #1453935
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 11 May 2015 14:41:22 -0500
+
 linux-firmware (1.143) vivid; urgency=medium
 
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git cef33368c4d3425f11306496f0250f8ef1cf3c1f
