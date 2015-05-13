@@ -1,3 +1,38 @@
+linux-firmware (1.127.12) trusty; urgency=medium
+
+  * Add new firmware files required by the lts-vivid 3.19 kernel as
+    described by the kernel MODULE_FIRMWARE statements, satisfied by the
+    following upstream commits:
+     xhci-rcar: add firmware for R-Car H2/M2 USB 3.0 host controller
+     bnx2x: Add FW 7.10.51
+     xc5000: Add firmware for xc5000c variant
+     xc4000: add firmware for Xceive xc4000 tuner driver
+     linux-firmware: add firmware v3.25.0.0 for ITEtech IT9135 DVB-T USB driver
+     radeon: add updated firmware for radeon GPUs
+     radeon: add new firmware for the UVD block on older asics
+     rtl_nic: add firmware for RTL8168H and RTL8107E
+     iwlwifi: add new firmware for 3160 / 7260 / 7265 / 7265D
+     iwlwifi: update -10.ucode for 3160 / 7260 / 7265 / 7265D
+     radeon: add updated firmware for kaveri (radeon GPU)
+     linux-firmware: add Marvell USB8897-B0 firmware combo image
+     linux-firmware: add Marvell 8887-A2 firmware image
+     linux-firmware: add Marvell USB8766-A0 firmware combo image
+     iwlwifi: add new -12 firmware for 3160 / 7260 / 7265 / 7265D
+     iwlwifi: update -10.ucode for 3160 / 7260 / 7265 / 7265D
+     rtl_nic: update firmware for RTL8168H and RTL8107E
+     iwlwifi: update -10.ucode for 3160 / 7260 / 7265 / 7265D
+     radeon: Update Kaveri MEC firmware to #396
+     brcm: add firmware for BCM43242 USB device
+     brcm: add firmware files for BCM43602 PCIe device
+     brcm: add firmware for BCM4339 SDIO device
+     iwlwifi: update -12.ucode for 3160 / 7260 / 7265 / 7265D
+     brcm: add firmware for BCM43569 USB device
+     brcm: add firmware for BCM43570 PCIe device
+     brcm: replace non-working firmware for BCM4339
+    -LP: #1454733
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 13 May 2015 10:15:29 -0500
+
 linux-firmware (1.127.11) trusty; urgency=medium
 
   * iwlwifi: update firmware for 3160 / 7260 / 7265
