@@ -2669,3 +2669,14 @@ Driver: snd_intel_sst_core
 File: intel/fw_sst_22a8.bin
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
+
+--------------------------------------------------------------------------
+
+Driver: i915 -- Intel Integrated Graphics driver
+
+File: i915/skl_dmc_ver1_04.bin
+
+File: i915/skl_dmc_ver1.bin
+Version: DMC API/ABI ver 1 - release 04 for Skylake
+
+License: Redistributable. See LICENSE.i915 for details
