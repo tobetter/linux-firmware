@@ -2699,3 +2699,24 @@ File: i915/skl_dmc_ver1.bin
 Version: DMC API/ABI ver 1 - release 23 for Skylake
 
 License: Redistributable. See LICENSE.i915 for details
+
+--------------------------------------------------------------------------
+
+Driver: qca - Qualcomm Atheros Bluetooth support for QCA61x4 chips
+
+File: qca/nvm_usb_00000201.bin
+File: qca/nvm_usb_00000200.bin
+File: qca/nvm_usb_00000300.bin
+File: qca/nvm_usb_00000302.bin
+File: qca/nvm_00130300.bin
+File: qca/nvm_00130302.bin
+File: qca/rampatch_usb_00000200.bin
+File: qca/rampatch_usb_00000201.bin
+File: qca/rampatch_usb_00000300.bin
+File: qca/rampatch_usb_00000302.bin
+File: qca/rampatch_00130300.bin
+File: qca/rampatch_00130302.bin
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+
+--------------------------------------------------------------------------
