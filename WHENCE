@@ -2763,3 +2763,16 @@ Version: 01.0B.02.01
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
 --------------------------------------------------------------------------
+
+Driver: liquidio -- Cavium LiquidIO driver
+
+File: liquidio/lio_210nv_nic.bin
+Version: v1.1.9
+
+File: liquidio/lio_210sv_nic.bin
+Version: v1.1.9
+
+File: liquidio/lio_410nv_nic.bin
+Version: v1.1.9
+
+Licence: Redistributable. See LICENCE.cavium for details
