@@ -1,3 +1,17 @@
+linux-firmware (1.143.2) vivid; urgency=medium
+
+  [ Rodrigo Vivi ]
+
+  * Add firmware files for i915 Skylake graphics:
+    cherry picked from git://people.freedesktop.org/~vivijim/linux-firmware-i915
+    linux-firmware: Add i915 DMC firmware
+    linux-firmware: New minor DMC release for Skylake.
+    linux-firmware: New minor DMC release for Skylake - ver1_18
+    linux-firmware: New minor DMC release for Skylake - ver1_19
+    -LP: #1441861
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 10 Jul 2015 08:18:29 -0500
+
 linux-firmware (1.143.1) vivid; urgency=medium
 
   * iwlwifi: update -12.ucode for 3160 / 7260 / 7265 / 7265D
