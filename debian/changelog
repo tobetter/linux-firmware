@@ -1,3 +1,13 @@
+linux-firmware (1.143.3) vivid; urgency=medium
+
+  * Backport Intel 8260 Wifi/BT firmware, satisfied by the following
+    upstream commits:
+    iwlwifi: add new -13 firmware for iwlmvm devices
+    linux-firmware: Add firmware file for Intel Bluetooth 8260
+    - LP: #1476900
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 03 Aug 2015 08:15:06 -0500
+
 linux-firmware (1.143.2) vivid; urgency=medium
 
   [ Rodrigo Vivi ]
