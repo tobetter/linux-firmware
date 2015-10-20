@@ -2693,8 +2693,6 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
 Driver: i915 -- Intel Integrated Graphics driver
 
-File: i915/skl_dmc_ver1_21.bin
-File: i915/skl_dmc_ver1_22.bin
 File: i915/skl_dmc_ver1_23.bin
 
 File: i915/skl_dmc_ver1.bin
