@@ -1,3 +1,13 @@
+linux-firmware (1.149.2) wily; urgency=medium
+
+  * Update ath10k firmware to support Atheros Qualcomm Killer N1525
+    Wireless-AC
+     ath10k: QCA6174 hw2.1: add firmware WLAN.RM.1.1-00141 and board.bin
+     ath10k: QCA6174 hw3.0: add WLAN.RM.2.0-00180-QCARMSWPZ-1
+    -LP: #1383184
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 28 Oct 2015 11:26:13 -0500
+
 linux-firmware (1.149.1) wily; urgency=medium
 
   * Update i915 Skylake firmware to version 1.23
