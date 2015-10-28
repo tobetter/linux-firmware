@@ -1,3 +1,14 @@
+linux-firmware (1.127.17) trusty; urgency=medium
+
+  * Update i915 Skylake firmware to version 1.23
+    linux-firmware: New minor DMC release for Skylake - ver1_22
+    linux-firmware: Clean up i915 by removing old skl dmc firmware.
+    linux-firmware: New minor DMC release for Skylake - ver1_23
+    linux-firmware/i915: Removing old Skylake DMC
+    -LP: #1509103
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 28 Oct 2015 11:36:05 -0500
+
 linux-firmware (1.127.16) trusty; urgency=medium
 
   * Update i915 Skylake firmware to upstream versions
