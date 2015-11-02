@@ -1,3 +1,12 @@
+linux-firmware (1.143.6) vivid; urgency=medium
+
+  * Add support for Atheros Communications, Inc. [0cf3:e300] bluetooth
+    adapter
+     qca: add BT firmware files to support QCA ROME chips
+    -LP: #1477872
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 02 Nov 2015 11:56:25 -0600
+
 linux-firmware (1.143.5) vivid; urgency=medium
 
   * Update i915 Skylake firmware to version 1.23
