@@ -1,3 +1,10 @@
+linux-firmware (1.149.3) wily; urgency=medium
+
+  * brcm: update firmware for the BCM4356 PCIe device
+    -LP: #1517726
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 20 Nov 2015 07:54:28 -0600
+
 linux-firmware (1.149.2) wily; urgency=medium
 
   * Update ath10k firmware to support Atheros Qualcomm Killer N1525
