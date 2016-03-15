@@ -1,3 +1,78 @@
+linux-firmware (1.127.21) trusty; urgency=medium
+
+  * Updates for lts-xenial.
+    UBUNTU: Add script to identify candidate firmware for lts backport updates
+    wl18xx: add version 4 of the wl18xx firmware
+    fw_sst_0f28: Add firmware for Intel Baytrail SST DSP
+    as102: add firmware for Abilis Systems Single DVB-T Receiver
+    Update firmware for rtl8821ae
+    IntcSST2: Add firmware for Intel Broadwell SST DSP
+    linux-firmware: add sst audio firmware for baytrail platforms
+    linux-firmware: update firmware for Intel Broadwell SST DSP
+    linux-firmware: add sst audio firmware for braswell platforms
+    linux-firmware: add Marvell SD/USB8801 B0 firmware images
+    linux-firmware: Add QLogic BR Series Adapter Firmware
+    Add v1.4.0 firmware for ath9k_htc.
+    ath10k: add firmware 10.2.4.45 as firmware-4.bin
+    brcm: add firmware for BCM43455 SDIO device
+    brcm: add firmware for BCM43340/1 SDIO devices
+    brcm: add firmware for BCM4324(1) B5 chipset
+    linux-firmware: Add Realtek Bluetooth HCD firmware
+    wl18xx: update firmware file, remove conf file
+    linux-firmware: Add i915 GuC firmware
+    linux-firmware: Add i915 DMC firmware for Broxton
+    radeon: add firmware for VCE1.0 hardware
+    cxgb4: Add BT adapter PHY firmware
+    linux-firmware: update audio firmware for Braswell platform
+    Add firmware for Cavium LiquidIO 210NV, 210SV, and 410NV cards
+    bnx2x: Update to FW version 7.12.30
+    rtl_bt: correct RTL8723A firmware file
+    linux-firmware: Update to QAT dh895xxcc UOF firmware and a new QAT MMP FW
+    linux-firmware: wilc1000: add firmware for wilc1000 802.11n driver
+    cxgb4: update firmware to revision 1.14.4.0
+    linux-firmware: New minor DMC release for Broxton - ver1_05
+    linux-firmware: New major GuC release for Skylake.
+    linux-firmware: Add Intel OPA hfi1 firmware
+    ar3k: add to support AR3012 v2.1 firmware
+    amdgpu: add firmware for VI asics
+    linux-firmware: New minor DMC release for Broxton - ver1_06
+    linux-firmware: Add qmss accumulator pdsp firmware for keystone SoCs
+    linux-firmware: Add firmware patch for Intel Bluetooth 7265 (D1)
+    ath10k: QCA988X hw2.0: add firmware 10.2.4.70.9-2
+    ath10k: QCA6174 hw2.1: add firmware WLAN.RM.1.1-00141 and board.bin
+    ath10k: QCA6174 hw3.0: add WLAN.RM.2.0-00180-QCARMSWPZ-1
+    ath10k: QCA99X0 hw2.0: add firmware 10.4.1.00030-1 and board.bin
+    brcm: adding firmware for BCM4350 PCIe device
+    linux-firmware: add Skylake audio firmware
+    remove executable bit from some firmware
+    radeon/amdgpu: update to latest firmware
+    qed: Add FW 8.4.2.0.
+    iwlwifi: add new -16 firmware for iwlmvm devices
+    fix permissions on qed_init_values_zipped-8.4.2.0.bin
+    brcm: add initial firmware for bcm4371 11ac wifi device
+    Add firmware for mt7601u. version 34.
+    Update Intel OPA hfi1 firmware
+    moxa: Add firmware for Moxa 11x0 USB Serial devices
+    linux-firmware: Update Skylake audio firmware
+    linux-firmware: add fw for new qat devices
+    add a symlink from qat_mmp.bin to its new file name
+    fix permissions on brcm/brcmfmac4371-pcie.bin
+    qed: Add firmware 8.7.3.0.
+    linux-firmware: Update firmware patch for Intel Bluetooth 7265 (D1)
+    brcm: add firmware for bcm4366 device
+    linux-firmware: intel: add symbolic link and file versions
+    linux-firmware: intel: Update Skylake audio firmware
+    linux-firmware: New minor DMC release for Skylake - ver1_26
+    linux-firmware: Add AR3012 firmware
+    -LP: #1552155
+
+  * Update nic-firmware.lst and scsi-firmware.lst
+    UBUNTU: Add script to help ease updating udeb lists
+    UBUNTU: Update nic-firmware.lst and scsi-firmware.lst based on kernel udebs
+    -LP: #1558135
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 21 Mar 2016 07:55:28 -0500
+
 linux-firmware (1.127.20) trusty; urgency=medium
 
   * UBUNTU: Added ql2500_fw.bin to scsi-firmware.lst
