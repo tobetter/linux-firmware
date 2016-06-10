@@ -1,3 +1,11 @@
+linux-firmware (1.157.1) xenial; urgency=medium
+
+  * Add firmware for QCA9377 wireless network adapter
+    ath10k: QCA9377 hw1.0: add firmware and board files
+    -LP: #1484159
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 10 Jun 2016 07:34:04 -0500
+
 linux-firmware (1.157) xenial; urgency=medium
 
   * UBUNTU: Add script to identify candidate firmware for lts backport updates
