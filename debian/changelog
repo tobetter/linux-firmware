@@ -1,3 +1,13 @@
+linux-firmware (1.157.2) xenial; urgency=medium
+
+  * Updates to fix problems with QCA6164 wireless support
+    ath10k: QCA6174 hw3.0: add board-2.bin
+    ath10k: QCA6174 hw2.1: add board-2.bin
+    ath10k: QCA6174 hw2.1: update firmware-5.bin to SW_RM.1.1.1-00157-QCARMSWPZ-1
+    -LP: #1436940
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 22 Jun 2016 08:03:37 -0500
+
 linux-firmware (1.157.1) xenial; urgency=medium
 
   * Add firmware for QCA9377 wireless network adapter
