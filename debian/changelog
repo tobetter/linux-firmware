@@ -1,3 +1,10 @@
+linux-firmware (1.157.3) xenial; urgency=medium
+
+  * linux-firmware: Add firmware file for Intel Bluetooth 8265 (LP: #1599071)
+  * linux-firmware: New minor DMC release for Broxton - ver1_07 (LP: #1605276)
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 21 Jul 2016 10:06:22 -0500
+
 linux-firmware (1.157.2) xenial; urgency=medium
 
   * Updates to fix problems with QCA6164 wireless support
