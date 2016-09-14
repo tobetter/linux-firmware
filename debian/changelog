@@ -1,3 +1,9 @@
+linux-firmware (1.157.4) xenial; urgency=medium
+
+  * ath10k: QCA6174: update board files (LP: #1589905)
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 14 Sep 2016 08:19:44 -0500
+
 linux-firmware (1.157.3) xenial; urgency=medium
 
   * linux-firmware: Add firmware file for Intel Bluetooth 8265 (LP: #1599071)
