@@ -1,3 +1,50 @@
+linux-firmware (1.157.5) xenial; urgency=medium
+
+  * New firmware is required for some iwlwifi modules (LP: #1635091)
+    - iwlwifi: add new -17 firmware for iwlmvm devices
+
+  * Update linux-firmware in xenial for lts-y (LP: #1637481)
+    - nvidia: Add GM200, GM204 and GM206 signed firmware
+    - nvidia: Add GM20B signed firmware
+    - iwlwifi: add new -21.ucode for 7265D, 8260, 3168 and 8265 devices
+    - iwlwifi: add -21.ucode to WHENCE
+    - linux-firmware: intel: Update Skylake audio firmware
+    - linux-firmware/i915: Major GuC release for Skylake - ver 6.1
+    - Update amdgpu ucode images
+    - Add amdgpu ucode images for Polaris family asics
+    - amdgpu: update CZ to new UVD fw that supports 40 sessions
+    - linux-firmware: intel: Update Skylake audio firmware
+    - amdgpu: update firmware
+    - cxgb4: update firmware to revision 1.15.37.0
+    - qed: Add FW 8.10.5.0
+    - linux-firmware: intel: Add Broxton audio firmware
+    - radeon: add new CI smc firmware
+    - radeon: add new SI smc firmware
+    - linux-firmware: intel: Update Skylake audio firmware
+    - amdgpu: Update UVD firmware for Polaris
+    - amdgpu: update polaris ucode
+    - linux-firmware: intel: Update Broxton audio firmware
+    - linux-firmware: intel: Update Skylake audio firmware
+    - linux-firmware: First DMC image for Kabylake.
+    - mediatek: Add mt8173 VPU firmware
+    - nvidia: Add GP100 signed firmware
+    - iwlwifi: add new -22 firmware for 7265D and up
+    - amdgpu: update vce firmware for VI asics
+    - linux-firmware: intel: Add Kabylake audio firmware
+    - amdgpu: update stoney UVD firmware
+    - linux-firmware: intel: Update Skylake audio firmware
+    - linux-firmware: intel: Update Kabylake audio firmware
+    - linux-firmware: intel: Update Broxton audio firmware
+    - ath10k: QCA4019 hw1.0: add firmware and board files
+    - ath10k: QCA9887 hw1.0: add firmware and board files
+    - ath10k: QCA9888 hw2.0: add firmware and board files
+    - ath10k: QCA9984 hw1.0: add firmware and board files
+    - mediatek: Update firmware for decoder and MDP
+    - amdgpu: update UVD firmware for VI devices
+    - UBUNTU: Update nic-firmware.lst for lts-yakkety
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 28 Oct 2016 13:43:28 -0500
+
 linux-firmware (1.157.4) xenial; urgency=medium
 
   * ath10k: QCA6174: update board files (LP: #1589905)
