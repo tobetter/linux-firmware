@@ -1,3 +1,14 @@
+linux-firmware (1.157.6) xenial; urgency=medium
+
+  * linux-firmware 1.157.5 causes sound issues after initramfs update
+    (LP: #1645911)
+    - Revert "linux-firmware: First DMC image for Kabylake."
+
+  * Trigger update-initramfs following linux-firmware install (LP: #1646197)
+    - UBUNTU: Add postinst script to update initrds
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 30 Nov 2016 15:05:05 -0600
+
 linux-firmware (1.157.5) xenial; urgency=medium
 
   * New firmware is required for some iwlwifi modules (LP: #1635091)
