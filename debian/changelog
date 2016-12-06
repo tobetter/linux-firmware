@@ -1,3 +1,14 @@
+linux-firmware (1.161.1) yakkety; urgency=medium
+
+  * Trigger update-initramfs following linux-firmware install (LP: #1646197)
+    - UBUNTU: Add postinst script to update initrds
+
+  * Intel 8260 doesn't work with linux kernel 4.8 when using ucode version 22
+    (LP: #1647826)
+    - UBUNTU: SAUCE: Remove iwlwifi-8000C-22.ucode
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 06 Dec 2016 14:42:47 -0600
+
 linux-firmware (1.161) yakkety; urgency=medium
 
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
