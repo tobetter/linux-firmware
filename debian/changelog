@@ -1,3 +1,11 @@
+linux-firmware (1.157.7) xenial; urgency=medium
+
+  * Intel 8260 doesn't work with linux kernel 4.8 when using ucode version 22
+    (LP: #1647826)
+    - UBUNTU: SAUCE: Remove iwlwifi-8000C-22.ucode
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 19 Dec 2016 11:36:24 -0600
+
 linux-firmware (1.157.6) xenial; urgency=medium
 
   * linux-firmware 1.157.5 causes sound issues after initramfs update
