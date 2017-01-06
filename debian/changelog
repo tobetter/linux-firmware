@@ -1,3 +1,10 @@
+linux-firmware (1.157.8) xenial; urgency=medium
+
+  * usbduxsigma_firmware.bin: old version causes driver crash (LP: #1605974)
+    - usbdux: usbduxsigma: created matching binary of the firmware
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 06 Jan 2017 16:28:55 -0600
+
 linux-firmware (1.157.7) xenial; urgency=medium
 
   * Intel 8260 doesn't work with linux kernel 4.8 when using ucode version 22
