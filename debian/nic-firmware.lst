@@ -19,6 +19,7 @@ brcm/brcmfmac4329-sdio.bin
 brcm/brcmfmac4330-sdio.bin
 brcm/brcmfmac43340-sdio.bin
 brcm/brcmfmac4334-sdio.bin
+brcm/brcmfmac43430-sdio.bin
 brcm/brcmfmac4335-sdio.bin
 brcm/brcmfmac43362-sdio.bin
 brcm/brcmfmac4339-sdio.bin
@@ -26,8 +27,10 @@ brcm/brcmfmac43455-sdio.bin
 brcm/brcmfmac4350-pcie.bin
 brcm/brcmfmac4350c2-pcie.bin
 brcm/brcmfmac4354-sdio.bin
+brcm/brcmfmac4356-sdio.bin
 brcm/brcmfmac43569.bin
 brcm/brcmfmac4356-pcie.bin
+brcm/brcmfmac4358-pcie.bin
 brcm/brcmfmac43570-pcie.bin
 brcm/brcmfmac43602-pcie.bin
 brcm/brcmfmac4366b-pcie.bin
@@ -71,6 +74,7 @@ iwlwifi-135-6.ucode
 iwlwifi-2000-6.ucode
 iwlwifi-2030-6.ucode
 iwlwifi-3160-17.ucode
+iwlwifi-3168-22.ucode
 iwlwifi-3945-2.ucode
 iwlwifi-4965-2.ucode
 iwlwifi-5000-5.ucode
@@ -82,6 +86,7 @@ iwlwifi-6050-5.ucode
 iwlwifi-7260-17.ucode
 iwlwifi-7265-17.ucode
 iwlwifi-7265D-16.ucode
+iwlwifi-7265D-22.ucode
 iwlwifi-8000C-16.ucode
 iwlwifi-8000C-22.ucode
 iwlwifi-8265-22.ucode
