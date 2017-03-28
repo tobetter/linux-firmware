@@ -1,3 +1,24 @@
+linux-firmware (1.157.9) xenial; urgency=medium
+
+  * Update linux-firmware in xenial for 4.10 hwe-edge kernel (LP: #1675443)
+    - usb: host: xhci-plat: add firmware for the R-Car M3-W xHCI controllers
+    - usb: host: xhci-rcar: update firmware for R-Car H3 and M3-W
+    - qed: Add firmware 8.10.10.0
+    - brcm: add firmware for BCM43430 802.11n chipset
+    - amdgpu: add new smc firmware for newer tonga and iceland chips
+    - cxgb4: Update firmware to revision 1.16.26.0.
+    - brcm: add firmware for the BCM4356 SDIO device
+    - brcm: add firmware for the BCM4358 PCIe device.
+    - iwlwifi: update -17 firmware for 3260, 7260 and 7265
+    - Revert "UBUNTU: SAUCE: Remove iwlwifi-8000C-22.ucode"
+    - iwlwifi: update -22 firmware for 7265D and up
+    - radeon: add new firmware for SI chips
+    - amdgpu: add firmware for polaris12 asics
+    - cxgb4: update firmware to revision 1.16.33.0
+    - UBUNTU: Update nic-firmware.lst for zesty hwe kernel
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 28 Mar 2017 15:34:30 -0500
+
 linux-firmware (1.157.8) xenial; urgency=medium
 
   * usbduxsigma_firmware.bin: old version causes driver crash (LP: #1605974)
