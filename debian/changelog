@@ -1,3 +1,11 @@
+linux-firmware (1.157.10) xenial; urgency=medium
+
+  * intel 8260 doesn't work with linux kernel 4.8+ when using ucode version 22
+    (LP: #1647826)
+    - UBUNTU: SAUCE: Remove iwlwifi-8000C-22.ucode
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 21 Apr 2017 11:42:20 -0500
+
 linux-firmware (1.157.9) xenial; urgency=medium
 
   * Update linux-firmware in xenial for 4.10 hwe-edge kernel (LP: #1675443)
