@@ -1,3 +1,11 @@
+linux-firmware (1.164.1) zesty; urgency=medium
+
+  * intel 8260 doesn't work with linux kernel 4.8+ when using ucode version 22
+    (LP: #1647826)
+    - UBUNTU: SAUCE: Remove iwlwifi-8000C-22.ucode
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 21 Apr 2017 11:36:23 -0500
+
 linux-firmware (1.164) zesty; urgency=medium
 
   * Upstream firmware updates for zesty (LP: #1674413)
