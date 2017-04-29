@@ -1,3 +1,16 @@
+linux-firmware (1.157.11) xenial; urgency=medium
+
+  * Missing Bluetooth firmware for intel 8265 on Ubuntu 16.04 (LP: #1686815)
+    - linux-firmware: Update firmware file for Intel Bluetooth 8265
+    - linux-firmware: Update firmware file for Intel Bluetooth 8260
+    - linux-firmware: Fix the filename for WsP to align with device HW_VARIANT
+    - linux-firmware: Update firmware file for Intel Bluetooth 8260
+    - linux-firmware: Update firmware file for Intel Bluetooth 8265
+    - linux-firmware: Fix DDC file format for Intel Bluetooth 8260/8265
+    - linux-firmware: Update firmware file for Intel Bluetooth,8265
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 16 May 2017 15:20:33 -0500
+
 linux-firmware (1.157.10) xenial; urgency=medium
 
   * intel 8260 doesn't work with linux kernel 4.8+ when using ucode version 22
