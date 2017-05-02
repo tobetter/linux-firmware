@@ -763,6 +763,9 @@ Version: 14.68.36.p60
 File: mrvl/usb8801_uapsta.bin
 Version: 14.68.36.p60
 
+File: mrvl/usbusb8997_combo_v4.bin
+Version: 16.68.1.p113
+
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
 
