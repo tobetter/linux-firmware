@@ -2957,6 +2957,11 @@ Driver: rsi -- Redpine Signals Inc 91x driver
 
 File: rsi_91x.fw
 
+File: RS9113_AP_BT_DUAL_MODE.rps
+File: RS9113_WLAN_BT_DUAL_MODE.rps
+File: RS9113_WLAN_QSPI.rps
+version: 1.5.4
+
 Licence:
  * Firmware is:
  *	Derived from proprietary unpublished source code,
