@@ -1,3 +1,10 @@
+linux-firmware (1.157.12) xenial; urgency=medium
+
+  * Add firmware for Redpine 9113 chipset (LP: #1704363)
+    - UBUNTU: linux-firmware: add firmware images for Redpine 9113 chipset
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 11 Aug 2017 09:42:04 -0500
+
 linux-firmware (1.157.11) xenial; urgency=medium
 
   * Missing Bluetooth firmware for intel 8265 on Ubuntu 16.04 (LP: #1686815)
