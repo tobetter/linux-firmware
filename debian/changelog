@@ -1,3 +1,39 @@
+linux-firmware (1.157.13) xenial; urgency=medium
+
+  * Update firmware for 4.12 linux-hwe-edge kernel (LP: #1711400)
+    - linux-firmware: First DMC image for Kabylake.
+    - rtlwifi: Add updates for RTL8723BE and RTL8821AE
+    - linux-firmware/i915: Add HuC 1.07.1398 for SKL
+    - linux-firmware/i915: Add HuC 1.07.1398 for broxton
+    - linux-firmware/i915: HuC on 2.0.1810 for Kabylake
+    - amdgpu: add smc firmware for new polaris variants
+    - nvidia: add GM20B PMU firmware
+    - nvidia: add GP102/GP104/GP106/GP107 signed firmware
+    - qed: Add firmware 8.15.3.0
+    - nfp: Add firmware 0.6.1
+    - nvidia: add GP10B signed firmware
+    - nvidia: fix GP107 signed firmware
+    - linux-firmware: add Marvell USB8997 firmware image
+    - linux-firmware: add wil6210 firmware 4.1.0.55
+    - ath10k: QCA6174 hw3.0: add WLAN.RM.4.4-00022-QCARMSWPZ-2
+    - iwlwifi: add -27 firmware for 3168, 7265D, 8000C and 8265
+    - iwlwifi: update -22 firmware for 3168
+
+  * Update firmware for 4.13 linux-hwe-edge kernel (LP: #1724071)
+    - qed: Add firmware 8.20.0.0
+    - Mellanox: Add firmware for mlxsw_spectrum
+    - iwlwifi: update -27 firmware for 3168, 7265D, 8000C and 8265
+    - iwlwifi: add new firmware for 3168, 7265D, 8000C and 8265
+    - update WHENCE for new amdgpu/polaris12_*.bin firmware
+    - amdgpu: add initial vega10 firmware
+    - amdgpu: add initial uvd and vce firmware for vega10
+    - cavium: Add firmware for CNN55XX crypto driver.
+    - amdgpu: update psp and acg_smu firmware for vega10
+    - qcom: add firmware files for Adreno A3xx
+    - UBUNTU: Update nic-firmware.lst for artful hwe kernel
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 16 Oct 2017 16:26:25 -0500
+
 linux-firmware (1.157.12) xenial; urgency=medium
 
   * Add firmware for Redpine 9113 chipset (LP: #1704363)
