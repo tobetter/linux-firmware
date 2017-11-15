@@ -1,3 +1,14 @@
+linux-firmware (1.157.14) xenial; urgency=medium
+
+  * CVE-2017-13080 and CVE-2017-13081 (LP: #1728762)
+    - iwlwifi: update firmwares for 3160, 3168, 7265D, 8000C and 8265
+    - iwlwifi: update firmwares for 3160, 3168, 7260, 7265 and 7265D
+
+  * a300_[pfp|pm4].fw clashes when installing linux-firmware (LP: #1728908)
+    - Add linux-firmware-snapdragon to Breaks: and Replaces:
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 15 Nov 2017 15:58:14 -0600
+
 linux-firmware (1.157.13) xenial; urgency=medium
 
   * Update firmware for 4.12 linux-hwe-edge kernel (LP: #1711400)
