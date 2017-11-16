@@ -1,3 +1,13 @@
+linux-firmware (1.164.2) zesty; urgency=medium
+
+  * Add audio topology firmware for Joule (LP: #1689497)
+    - UBUNTU: SAUCE: linux-firmware: audio topology binary for Joule
+
+  * CVE-2017-13080 and CVE-2017-13081 (LP: #1728762)
+    - iwlwifi: update firmwares for 3160, 3168, 7260, 7265 and 7265D
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 16 Nov 2017 10:24:39 -0600
+
 linux-firmware (1.164.1) zesty; urgency=medium
 
   * intel 8260 doesn't work with linux kernel 4.8+ when using ucode version 22
