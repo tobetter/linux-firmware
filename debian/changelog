@@ -1,3 +1,12 @@
+linux-firmware (1.164.3) zesty; urgency=medium
+
+  * Intel 9260/9462/9560 firmware support (LP: #1734243)
+    - iwlwifi: add firmware version 33 for new 9000 series
+    - linux-firmware: Add firmware file for Intel Bluetooth 9560
+    - linux-firmware: Add firmware file for Intel Bluetooth 9260
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 12 Dec 2017 08:36:09 -0600
+
 linux-firmware (1.164.2) zesty; urgency=medium
 
   * Add audio topology firmware for Joule (LP: #1689497)
