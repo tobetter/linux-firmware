@@ -3062,7 +3062,7 @@ File: rsi_91x.fw
 File: RS9113_AP_BT_DUAL_MODE.rps
 File: RS9113_WLAN_BT_DUAL_MODE.rps
 File: RS9113_WLAN_QSPI.rps
-version: 1.5.4
+version: 1.6.0
 
 Licence:
  * Firmware is:
