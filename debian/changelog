@@ -1,3 +1,15 @@
+linux-firmware (1.157.16) xenial; urgency=medium
+
+  * Connection issue in Bluetooth SPP mode between a Dell Edge Gateway 3000
+    and an HC-05 BT module attached to Arduino Uno (LP: #1738773)
+    - UBUNTU: linux-firmware: update firmware images for Redpine 9113 chipset
+
+  * QCA6174 stops working on newer kernels after second group rekeying
+    (LP: #1743279)
+    - ath10k: QCA6174 hw3.0: update firmware-6.bin to WLAN.RM.4.4.1-00051-QCARMSWP-1
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 18 Jan 2018 07:29:44 -0600
+
 linux-firmware (1.157.15) xenial; urgency=medium
 
   * QCA6174A XR cannot find any WiFi AP (LP: #1728523)
