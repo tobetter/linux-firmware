@@ -1,3 +1,15 @@
+linux-firmware (1.157.17) xenial; urgency=medium
+
+  * need linux-firmware for rtl bt ( 0bda:b023) (LP: #1747336)
+    - rtl_bt: Add firmware and config file for RTL8822BE
+    - rtl_bt: Update firmware for BT part of rtl8822be
+
+  * Missing install-time driver for QLogic QED 25/40/100Gb Ethernet NIC
+    (LP: #1743638)
+    - UBUNTU: Add QLogic QED firmware to nic-firmware.lst
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 14 Feb 2018 08:19:39 -0600
+
 linux-firmware (1.157.16) xenial; urgency=medium
 
   * Connection issue in Bluetooth SPP mode between a Dell Edge Gateway 3000
