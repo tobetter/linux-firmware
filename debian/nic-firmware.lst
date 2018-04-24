@@ -66,6 +66,10 @@ rtl_nic/rtl8168g-3.fw
 rtl_nic/rtl8168h-1.fw
 rtl_nic/rtl8168h-2.fw
 rtl_nic/rtl8402-1.fw
+bnx2/bnx2-mips-06-6.2.3.fw
+bnx2/bnx2-mips-09-6.2.1b.fw
+bnx2/bnx2-rv2p-09ax-6.0.17.fw
+bnx2/bnx2-rv2p-09-6.0.17.fw
 sun/cassini.bin
 phanfw.bin
 iwlwifi-1000-5.ucode
