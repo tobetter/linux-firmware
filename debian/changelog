@@ -1,3 +1,14 @@
+linux-firmware (1.169.4) artful; urgency=medium
+
+  * Missing install-time driver for QLogic QED 25/40/100Gb Ethernet NIC
+    (LP: #1743638)
+    - UBUNTU: Add QLogic QED firmware to nic-firmware.lst
+
+  * add i915/glk_dmc_ver1_04.bin (LP: #1752507)
+    - linux-firmware/i915: Add Geminilake DMC version 1.04
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 24 Apr 2018 11:32:30 -0500
+
 linux-firmware (1.169.3) artful; urgency=medium
 
   * QCA6174 stops working on newer kernels after second group rekeying
