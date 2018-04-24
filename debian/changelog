@@ -1,3 +1,42 @@
+linux-firmware (1.157.18) xenial; urgency=medium
+
+  * Redpine: BLE scanning for nearby beacons per second is too low and result
+    high loss rate (LP: #1753439)
+    - UBUNTU: linux-firmware: update firmware images for Redpine 9113 chipset
+
+  * Redpine: BLE radio lost issue (LP: #1757443)
+    - UBUNTU: linux-firmware: update firmware images for Redpine 9113 chipset
+
+  * Update firmware for 18.04 hwe kernel (LP: #1763823)
+    - linux-firmware: liquidio: update firmware to v1.4.2
+    - linux-firmware: liquidio: update firmware to v1.5.1
+    - linux-firmware: liquidio: update firmware to v1.6.0
+    - firmware: tegra: Add VIC firmware
+    - linux-firmware: liquidio: update firmware to v1.6.1
+    - rtlwifi: rtl8822be: Add firmware for new driver/device
+    - linux-firmware/i915: Add Geminilake DMC version 1.04
+    - iwlwifi: add new firmware version 34 for 8000C and 8265
+    - linux-firmware: liquidio: update firmware to v1.7.0
+    - iwlwifi: add firmware version 34 for new 9000 series
+    - amdgpu: add new CP firmware for polaris chips
+    - Mellanox: Add new mlxsw_spectrum firmware 13.1530.152
+    - brcm: introduce firmware for bcm43430 revision 0
+    - amdgpu: add firmware for Raven
+    - brcm: add CYW4373 firmwares and Cypress license file
+    - amdgpu: update vcn firmware for raven
+    - Revert "UBUNTU: Remove obsolete bnx2 firmware"
+    - Revert "UBUNTU: Remove duplicate bnx2 firmware"
+    - Revert "UBUNTU: Remove obsolete bnx2 firmware"
+    - Revert "UBUNTU: Remove obsolete bnx2 firmware"
+    - UBUNTU: update nic-firmware.lst for 18.04 hwe kernel
+
+  * Update Qualcomm QCA6174-HMC (DW1820) to comply with CE-RED (Radio
+    Emissions Directive) (LP: #1752044)
+    - ath10k: QCA6174 hw3.0: update firmware-6.bin to WLAN.RM.4.4.1-00079-QCARMSWPZ-1
+    - ath10k: QCA6174 hw3.0: update board-2.bin
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 24 Apr 2018 10:58:13 -0500
+
 linux-firmware (1.157.17) xenial; urgency=medium
 
   * need linux-firmware for rtl bt ( 0bda:b023) (LP: #1747336)
