@@ -1,3 +1,12 @@
+linux-firmware (1.157.19) xenial; urgency=medium
+
+  * Intel WiFi Linux driver update for ETSI 5GHz Adaptivity Requirement
+    (LP: #1769980)
+    - iwlwifi: add some new FW versions and update older ones
+    - iwlwifi: update firmwares for 3160, 3168 and 7265
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 18 May 2018 14:03:25 -0500
+
 linux-firmware (1.157.18) xenial; urgency=medium
 
   * Redpine: BLE scanning for nearby beacons per second is too low and result
