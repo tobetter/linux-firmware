@@ -1,3 +1,15 @@
+linux-firmware (1.173.1) bionic; urgency=medium
+
+  * Redpine: BLE radio lost issue (LP: #1757443)
+    - linux-firmware: rsi: update firmware images for Redpine 9113 chipset
+
+  * Intel WiFi Linux driver update for ETSI 5GHz Adaptivity Requirement
+    (LP: #1769980)
+    - iwlwifi: add some new FW versions and update older ones
+    - iwlwifi: update firmwares for 3160, 3168 and 7265
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 18 May 2018 13:09:45 -0500
+
 linux-firmware (1.173) bionic; urgency=medium
 
   * missing bnx2 firmware (LP: #1756367)
