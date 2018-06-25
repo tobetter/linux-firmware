@@ -38,6 +38,9 @@ brcm/brcmfmac4366b-pcie.bin
 brcm/brcmfmac4371-pcie.bin
 brcm/brcmfmac4373-sdio.bin
 brcm/brcmfmac4373.bin
+e100/d101m_ucode.bin
+e100/d101s_ucode.bin
+e100/d102e_ucode.bin
 hfi1_dc8051.fw
 hfi1_fabric.fw
 hfi1_pcie.fw
@@ -124,4 +127,6 @@ bnx2x/bnx2x-e2-7.12.30.0.fw
 bnx2x/bnx2x-e1-7.13.1.0.fw
 bnx2x/bnx2x-e1h-7.13.1.0.fw
 bnx2x/bnx2x-e2-7.13.1.0.fw
+tigon/tg3.bin
 tigon/tg3_tso.bin
+tigon/tg3_tso5.bin
