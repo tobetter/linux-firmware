@@ -1,3 +1,14 @@
+linux-firmware (1.157.20) xenial; urgency=medium
+
+  * Restore firmware files which were previously shipped with the kernel
+    (LP: #1778529)
+    - Revert "UBUNTU: Remove duplicate e100 firmware"
+    - Revert "UBUNTU: Remove duplicate qlogic firmware"
+    - Revert "UBUNTU: Remove duplicate tigon firmware"
+    - UBUNTU: Add firmware removed from Linux 4.14 to udebs
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 25 Jun 2018 09:20:00 -0500
+
 linux-firmware (1.157.19) xenial; urgency=medium
 
   * Intel WiFi Linux driver update for ETSI 5GHz Adaptivity Requirement
