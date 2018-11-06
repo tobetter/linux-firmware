@@ -1,3 +1,10 @@
+linux-firmware (1.157.21) xenial; urgency=medium
+
+  * [0cf3:e007] Can't turn on BT by Wireless hotkey (LP: #1796634)
+    - qca: update BT firmware files for QCA ROME chip.
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 06 Nov 2018 14:45:03 -0600
+
 linux-firmware (1.157.20) xenial; urgency=medium
 
   * Restore firmware files which were previously shipped with the kernel
