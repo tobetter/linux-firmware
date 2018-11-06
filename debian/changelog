@@ -1,3 +1,10 @@
+linux-firmware (1.173.2) bionic; urgency=medium
+
+  * [0cf3:e007] Can't turn on BT by Wireless hotkey (LP: #1796634)
+    - qca: update BT firmware files for QCA ROME chip.
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 06 Nov 2018 14:32:44 -0600
+
 linux-firmware (1.173.1) bionic; urgency=medium
 
   * Redpine: BLE radio lost issue (LP: #1757443)
