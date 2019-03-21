@@ -1,3 +1,54 @@
+linux-firmware (1.173.5) bionic; urgency=medium
+
+  * To add power setting bin file for SAR support (QCA6174) (LP: #1817817)
+    - ath10k: QCA6174 hw3.0: update board-2.bin
+
+  * iwlwifi Intel 8265 firmware crashing on lenovo x1 Gen 6 (LP: #1808389)
+    - UBUNTU: revert most iwlwifi firmware back to versions from 1.173.3
+
+  * Update linux-firmware in bionic for 5.0-based hwe-edge kernel
+    (LP: #1821239)
+    - amdgpu: sync up bonaire firmware with 18.20 release
+    - amdgpu: sync up hawaii firmware with 18.20 release
+    - amdgpu: sync up kabini firmware with 18.20 release
+    - amdgpu: sync up mullins firmware with 18.20 release
+    - amdgpu: sync up kaveri firmware with 18.20 release
+    - amdgpu: sync up hainan firmware with 18.20 release
+    - amdgpu: sync up oland firmware with 18.20 release
+    - amdgpu: sync up tahiti firmware with 18.20 release
+    - amdgpu: sync up pitcairn firmware with 18.20 release
+    - amdgpu: sync up verde firmware with 18.20 release
+    - linux-firmware: mediatek: add MT7622 Bluetooth firmwares and license file
+    - linux-firmware: add firmware for mt76x0
+    - qed: Add firmware 8.37.7.0
+    - firmware/icl/dmc: Add v1.07 of DMC for Icelake
+    - iwlwifi: add -41.ucode firmwares for 9000 series
+    - ath10k: QCA9377 hw1.0: add firmware-6.bin to WLAN.TF.2.1-00021-QCARMSWP-1
+    - linux-firmware: add firmware for mt7610e
+    - linux-firmware: add firmware for mt7650e
+    - amdgpu: add raven dmcu firmware
+    - amdgpu: Add new polaris SMC firmwares
+    - amdgpu: Add new polaris MC firmwares
+    - amdgpu: add firmware for vega12
+    - amdgpu: update polaris10 fw for 18.50 release
+    - amdgpu: update polaris11 fw for 18.50 release
+    - amdgpu: update vega12 fw for 18.50 release
+    - Mellanox: Add new mlxsw_spectrum firmware 13.1910.622
+    - brcm: provide new firmwares for BCM4366 chipset
+    - iwlwifi: update -41.ucode for 9000 series
+    - iwlwifi: add -43.ucode for 9000 series
+    - rtl_bt: Add firmware and configuration files for the Bluetooth part of RTL8723BS
+    - iwlwifi: update firmwares for 9000 series
+    - amdgpu: add picasso fw for 18.50 release
+    - amdgpu: add raven2 fw for 18.50 release
+    - amdgpu: add firmware for vega20 from 18.50
+    - amdgpu: update raven2 rlc firmware
+    - drm/amdgpu: update vega20 to latest from 18.50 branch
+    - drm/amdgpu: update polaris12 to latest from 18.50 branch
+    - drm/amdgpu: update picasso to latest from 18.50 branch
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 21 Mar 2019 15:17:46 -0500
+
 linux-firmware (1.173.4) bionic; urgency=medium
 
   * iwlwifi Intel 8265 firmware crashing on lenovo x1 Gen 6 (LP: #1808389)
