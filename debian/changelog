@@ -1,3 +1,13 @@
+linux-firmware (1.175.3) cosmic; urgency=medium
+
+  * To add power setting bin file for SAR support (QCA6174) (LP: #1817817)
+    - ath10k: QCA6174 hw3.0: update board-2.bin
+
+  * iwlwifi Intel 8265 firmware crashing on lenovo x1 Gen 6 (LP: #1808389)
+    - UBUNTU: revert most iwlwifi firmware back to versions from 1.173.3
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 21 Mar 2019 15:29:33 -0500
+
 linux-firmware (1.175.2) cosmic; urgency=medium
 
   * iwlwifi Intel 8265 firmware crashing on lenovo x1 Gen 6 (LP: #1808389)
