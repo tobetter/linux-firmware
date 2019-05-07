@@ -1,3 +1,10 @@
+linux-firmware (1.178.1) disco; urgency=medium
+
+  * Bluetooth not working (Intel CyclonePeak) (LP: #1817518)
+    - linux-firmware: Add firmware file for Intel Bluetooth 22161
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 07 May 2019 07:14:55 -0500
+
 linux-firmware (1.178) disco; urgency=medium
 
   * Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
