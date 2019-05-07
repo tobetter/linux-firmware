@@ -1,3 +1,10 @@
+linux-firmware (1.173.6) bionic; urgency=medium
+
+  * Bluetooth not working (Intel CyclonePeak) (LP: #1817518)
+    - linux-firmware: Add firmware file for Intel Bluetooth 22161
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 07 May 2019 06:54:50 -0500
+
 linux-firmware (1.173.5) bionic; urgency=medium
 
   * To add power setting bin file for SAR support (QCA6174) (LP: #1817817)
