@@ -1,3 +1,11 @@
+linux-firmware (1.175.5) cosmic; urgency=medium
+
+  * Add firmware for RTL8822BE and RTL8822CE (LP: #1831833)
+    - rtw88: Add firmware file for driver rtw88
+    - rtw88: RTL8822C: update rtw8822c_fw.bin to v5.0
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 18 Jun 2019 06:48:33 -0500
+
 linux-firmware (1.175.4) cosmic; urgency=medium
 
   * Bluetooth not working (Intel CyclonePeak) (LP: #1817518)
