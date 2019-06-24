@@ -1,3 +1,15 @@
+linux-firmware (1.173.8) bionic; urgency=medium
+
+  * add firmware and topology file for sound sof driver [cml/cnl]
+    (LP: #1833405)
+    - SAUCE: add firmware and topology for cml/cnl sof driver
+
+  * Intel WiFi (CNVi) module has no function on Comet Lake [8086:02f0]
+    (LP: #1833065)
+    - iwlwifi: add new firmwares for integrated 22000 series
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 24 Jun 2019 15:56:43 -0500
+
 linux-firmware (1.173.7) bionic; urgency=medium
 
   * Add Intel CyclonePeak wifi firmware (LP: #1828133)
