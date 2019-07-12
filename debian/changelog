@@ -1,3 +1,11 @@
+linux-firmware (1.157.22) xenial; urgency=medium
+
+  * Bluetooth: hci0: request failed to create LE connection: status 0x0c
+    (Intel 9260) (LP: #1835449)
+    - linux-firmware: Update firmware file for Intel Bluetooth, 9260
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 12 Jul 2019 07:22:20 -0500
+
 linux-firmware (1.157.21) xenial; urgency=medium
 
   * [0cf3:e007] Can't turn on BT by Wireless hotkey (LP: #1796634)
