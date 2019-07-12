@@ -1,3 +1,15 @@
+linux-firmware (1.178.3) disco; urgency=medium
+
+  * Missing bluetooth firmware for Intel Wireless-AC 9462/9560 (LP: #1834464)
+    - linux-firmware: Add firmware file for Intel Bluetooth AX201
+
+  * [Intel CyclonePeak] Can not turn on BT after turn off (via Hotkey)
+    (LP: #1835345)
+    - linux-firmware: Update firmware file for Intel Bluetooth 22161
+    - linux-firmware: Update firmware file for Intel Bluetooth 22161
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 12 Jul 2019 07:43:03 -0500
+
 linux-firmware (1.178.2) disco; urgency=medium
 
   * add firmware and topology file for sound sof driver [cml/cnl]
