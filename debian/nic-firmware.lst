@@ -31,6 +31,7 @@ brcm/brcmfmac4350c2-pcie.bin
 brcm/brcmfmac43569.bin
 brcm/brcmfmac4356-pcie.bin
 brcm/brcmfmac4356-sdio.bin
+brcm/brcmfmac4366c-pcie.bin
 brcm/brcmfmac43570-pcie.bin
 brcm/brcmfmac4358-pcie.bin
 brcm/brcmfmac43602-pcie.bin
@@ -53,6 +54,7 @@ ipw2200-ibss.fw
 ipw2200-sniffer.fw
 qed/qed_init_values_zipped-8.20.0.0.bin
 qed/qed_init_values_zipped-8.37.2.0.bin
+qed/qed_init_values_zipped-8.37.7.0.bin
 rt2561.bin
 rt2561s.bin
 rt2661.bin
@@ -114,8 +116,10 @@ iwlwifi-8265-34.ucode
 iwlwifi-8265-36.ucode
 iwlwifi-9000-pu-b0-jf-b0-34.ucode
 iwlwifi-9000-pu-b0-jf-b0-38.ucode
+iwlwifi-9000-pu-b0-jf-b0-43.ucode
 iwlwifi-9260-th-b0-jf-b0-34.ucode
 iwlwifi-9260-th-b0-jf-b0-38.ucode
+iwlwifi-9260-th-b0-jf-b0-43.ucode
 tigon/tg3_tso.bin
 zd1201.fw
 zd1211/zd1211b_ub
