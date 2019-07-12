@@ -1,3 +1,22 @@
+linux-firmware (1.173.9) bionic; urgency=medium
+
+  * Missing bluetooth firmware for Intel Wireless-AC 9462/9560 (LP: #1834464)
+    - linux-firmware: Add firmware file for Intel Bluetooth AX201
+
+  * [Intel CyclonePeak] Can not turn on BT after turn off (via Hotkey)
+    (LP: #1835345)
+    - linux-firmware: Update firmware file for Intel Bluetooth 22161
+    - linux-firmware: Update firmware file for Intel Bluetooth 22161
+
+  * Bluetooth: hci0: request failed to create LE connection: status 0x0c
+    (Intel 9260) (LP: #1835449)
+    - linux-firmware: Update firmware file for Intel Bluetooth, 9260
+
+  * Update firmware in nic-firmware udeb for 5.0 hwe kernel (LP: #1836372)
+    - Update nic-firmware.lst for 5.0 hwe kernel
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 12 Jul 2019 09:55:49 -0500
+
 linux-firmware (1.173.8) bionic; urgency=medium
 
   * add firmware and topology file for sound sof driver [cml/cnl]
