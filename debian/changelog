@@ -1,3 +1,20 @@
+linux-firmware (1.178.4) disco; urgency=medium
+
+  * Intel Wireless-AC 9462/9560 not supported on ICL (LP: #1835879)
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+  * Bluetooth fails with "Bluetooth: hci0: request failed to create LE
+    connection: status 0x0c" message with Kernel 4.20 and up [9df0:0034]
+    (LP: #1836467)
+    - linux-firmware: Update firmware file for Intel Bluetooth 9560
+    - linux-firmware: Update firmware file for Intel Bluetooth 9560
+
+  * [Intel CyclonePeak] Pairing new BT mouse fails sometimes Edit
+    (LP: #1836983)
+    - linux-firmware: Update firmware file for Intel Bluetooth 22161
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 18 Jul 2019 16:27:57 -0500
+
 linux-firmware (1.178.3) disco; urgency=medium
 
   * Missing bluetooth firmware for Intel Wireless-AC 9462/9560 (LP: #1834464)
