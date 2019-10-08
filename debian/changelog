@@ -1,3 +1,16 @@
+linux-firmware (1.173.11) bionic; urgency=medium
+
+  * Intel Bluetooth AX201, aka HarrisonPeak (HrP), not supported
+    (LP: #1842893)
+    - linux-firmware: Add firmware file for Intel Bluetooth AX201
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+  * update firmware for sound sof driver to fix the hang issue on several
+    Dell machines (LP: #1847250)
+    - SAUCE: update firmware for sound sof driver to fix hang issues
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 08 Oct 2019 14:36:00 -0500
+
 linux-firmware (1.173.10) bionic; urgency=medium
 
   * Intel Wireless-AC 9462/9560 not supported on ICL (LP: #1835879)
