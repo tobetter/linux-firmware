@@ -1,3 +1,25 @@
+linux-firmware (1.178.6) disco; urgency=medium
+
+  * Add RTL8822cu bluetooth support (LP: #1849598)
+    - rtl_bt: Update RTL8822C BT FW to V0x098A_94A4
+    - rtl_bt: Update configuration file for BT part of RTL8822CU
+
+  * System will auto resume from sleep on receiving LE ADV after paired
+    with BT LE devices(LP: #1849779)
+    - linux-firmware: Update firmware file for Intel Bluetooth 9260
+
+  * Intel Bluetooth AX201 HarrisonPeak (HrP) firmware causes system hang
+    in deep suspend (LP: #1850738)
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+  * Revert the firmware update for sound/sof (LP: #1850739)
+    - Revert "UBUNTU: SAUCE: update firmware for sound sof driver to fix hang issues"
+
+  * Add support for Realtek 8723DE wireless adapter (LP: #1780590)
+    - rtw88: RTL8723D: add firmware file v48
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 05 Nov 2019 15:56:27 -0600
+
 linux-firmware (1.178.5) disco; urgency=medium
 
   * Intel Bluetooth AX201, aka HarrisonPeak (HrP), not supported
