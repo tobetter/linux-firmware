@@ -1,3 +1,28 @@
+linux-firmware (1.173.13) bionic; urgency=medium
+
+  * Update linux-firmware in bionic for 5.3 hwe kernel (LP: #1852512)
+    - linux-firmware: mediatek: add firmware for mt7668u Bluetooth
+    - firmware/huc/bxt: Add huC Update for BXT
+    - bnx2x: Add FW 7.13.11.0.
+    - linux-firmware: add firmware for MT7615E
+    - drm/i915/firmware: Add BXT GuC v32.0.3
+    - drm/i915/firmware: Add SKL GuC v32.0.3
+    - drm/i915/firmware: Add KBL GuC v32.0.3
+    - drm/i915/firmware: Add GLK GuC v32.0.3
+    - drm/i915/firmware: Add GLK HuC v03.01.2893
+    - drm/i915/firmware: Add ICL GuC v32.0.3
+    - drm/i915/firmware: Add ICL HuC v8.4.3238
+    - Mellanox: Add new mlxsw_spectrum firmware 13.2000.1122
+    - nvidia: update GP10[2467] SEC2 RTOS with the one already used on GP108
+    - UBUNTU: SAUCE: iwlwifi: Add iwlwifi firmware files for 5.3 hwe kernel
+    - UBUNTU: [Packaging] Update nic-firmware.lst for 5.3 hwe kernel
+
+  * Intel 7260 bluetooth firmware doesn't have working hsp/hfp profile
+    (LP: #1852785)
+    - linux-firmware: Update firmware patch for Intel Bluetooth 7260 (B5/B6)
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 26 Nov 2019 14:50:55 -0600
+
 linux-firmware (1.173.12) bionic; urgency=medium
 
   * Firmware for Radeon RX5700 (navi10) missing / boot failure
