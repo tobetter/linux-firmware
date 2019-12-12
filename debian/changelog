@@ -1,3 +1,15 @@
+linux-firmware (1.173.14) bionic; urgency=medium
+
+  * Fix latency issue on Realtek Bluetooth (LP: #1856077)
+    - rtl_bt: Update RTL8723D BT FW to 0x828A_96F1
+
+  * Intel Wireless-AC 9560 Bluetooth, whenever connected to BLE devices,
+    causes UI freeze when re-logging in after resumed from suspend
+    (LP: #1855235)
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 12 Dec 2019 07:48:58 -0600
+
 linux-firmware (1.173.13) bionic; urgency=medium
 
   * Update linux-firmware in bionic for 5.3 hwe kernel (LP: #1852512)
