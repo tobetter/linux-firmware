@@ -1,3 +1,25 @@
+linux-firmware (1.173.15) bionic; urgency=medium
+
+  * System will auto resume from sleep on receiving LE ADV after paired with
+    BT LE devices (Intel 9560 HrP) (LP: #1857673)
+    - linux-firmware: Update firmware file for Intel Bluetooth 9560
+
+  * Fix throttled clock on AMD Oland (LP: #1858751)
+    - radeon: update oland rlc microcode from amdgpu
+
+  * Support ath10k hardware rfkill (LP: #1858166)
+    - ath10k: QCA6174 hw3.0: update board-2.bin
+
+  * Intel Bluetooth AX201 HarrisonPeak (HrP) [8086:06f0] subsystem
+    [8086:4070] firmware causes system hang in deep suspend (LP: #1858776)
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+  * intel/sof: update the intel sof firmware to v1.3-0f73628 for cml and cnl
+    (LP: #1859387)
+    - SAUCE: Update cml and cnl sof firmware files to v1.3-0f73628
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 29 Jan 2020 13:38:49 -0600
+
 linux-firmware (1.173.14) bionic; urgency=medium
 
   * Fix latency issue on Realtek Bluetooth (LP: #1856077)
