@@ -1,3 +1,11 @@
+linux-firmware (1.173.16) bionic; urgency=medium
+
+  * Failed to suspend once ever paired with BLE devices: PM: Device
+    0000:00:14.0 failed to suspend async: error -16 (LP: #1862734)
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 27 Feb 2020 13:24:55 -0600
+
 linux-firmware (1.173.15) bionic; urgency=medium
 
   * System will auto resume from sleep on receiving LE ADV after paired with
