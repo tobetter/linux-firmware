@@ -1,3 +1,11 @@
+linux-firmware (1.173.17) bionic; urgency=medium
+
+  * [drm:uvd_v1_0_start [radeon]] *ERROR* UVD not responding, trying to
+    reset the VCPU!!! (LP: #1865130)
+    - Revert "radeon: update oland rlc microcode from amdgpu"
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 19 Mar 2020 12:26:56 -0500
+
 linux-firmware (1.173.16) bionic; urgency=medium
 
   * Failed to suspend once ever paired with BLE devices: PM: Device
