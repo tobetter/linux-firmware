@@ -1,3 +1,15 @@
+linux-firmware (1.173.18) bionic; urgency=medium
+
+  * CVE-2018-5383
+    - linux-firmware: Update firmware patch for Intel Bluetooth 7265 (D0)
+    - linux-firmware:Update firmware patch for Intel Bluetooth 7265 (D1)
+    - linux-firmware: Update firmware patch for Intel Bluetooth 8260
+    - linux-firmware: Update firmware file for Intel Bluetooth,8265
+    - linux-firmware: Update firmware patch for Intel Bluetooth 7260 (B3/B4)
+    - linux-firmware:Update firmware patch for Intel Bluetooth 7265 (D1)
+
+ -- Juerg Haefliger <juergh@canonical.com>  Thu, 16 Apr 2020 07:41:28 +0200
+
 linux-firmware (1.173.17) bionic; urgency=medium
 
   * [drm:uvd_v1_0_start [radeon]] *ERROR* UVD not responding, trying to
