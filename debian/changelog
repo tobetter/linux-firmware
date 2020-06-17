@@ -1,3 +1,10 @@
+linux-firmware (1.183.6) eoan; urgency=medium
+
+  * Missing sof-cfl.ri symbol link for Bionic and Eoan (LP: #1875263)
+    - SAUCE: linux-firmware: symbol link sof-cfl.ri and sof-cfl.ldc
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 17 Jun 2020 07:48:49 -0500
+
 linux-firmware (1.183.5) eoan; urgency=medium
 
   * [drm:uvd_v1_0_start [radeon]] *ERROR* UVD not responding, trying to
