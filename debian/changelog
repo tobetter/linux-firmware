@@ -1,4 +1,21 @@
-linux-firmware (1.173.18) bionic; urgency=medium
+linux-firmware (1.173.19) bionic; urgency=medium
+
+  * Missing sof-cfl.ri symbol link for Bionic and Eoan (LP: #1875263)
+    - SAUCE: linux-firmware: symbol link sof-cfl.ri and sof-cfl.ldc
+
+  * Missing amdgpu navi14 firmware (LP: #1881525)
+    - amdgpu: add initial navi14 firmware form 19.30
+    - amdgpu: update navi14 firmware for 19.30
+    - amdgpu: add new navi14 wks gfx firmware for 19.30
+    - amdgpu: update navi14 vcn firmware
+    - amdgpu: update navi14 microcode for 19.50
+
+  * Add missing sof-hda-generic-2ch/4ch.tplg symlinks (LP: #1880623)
+    - SAUCE: generate 2 symbollinks for sof-hda-generic.tplg
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 17 Jun 2020 08:01:09 -0500
+
+linux-firmware (1.173.18) bionic-security; urgency=medium
 
   * CVE-2018-5383
     - linux-firmware: Update firmware patch for Intel Bluetooth 7265 (D0)
