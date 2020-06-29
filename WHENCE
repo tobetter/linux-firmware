@@ -1892,6 +1892,7 @@ File: amdgpu/tahiti_me.bin
 File: amdgpu/tahiti_pfp.bin
 File: amdgpu/tahiti_rlc.bin
 File: amdgpu/tahiti_smc.bin
+File: amdgpu/tahiti_uvd.bin
 File: amdgpu/pitcairn_ce.bin
 File: amdgpu/pitcairn_k_smc.bin
 File: amdgpu/pitcairn_mc.bin
@@ -1899,6 +1900,7 @@ File: amdgpu/pitcairn_me.bin
 File: amdgpu/pitcairn_pfp.bin
 File: amdgpu/pitcairn_rlc.bin
 File: amdgpu/pitcairn_smc.bin
+File: amdgpu/pitcairn_uvd.bin
 File: amdgpu/verde_ce.bin
 File: amdgpu/verde_k_smc.bin
 File: amdgpu/verde_mc.bin
@@ -1906,6 +1908,7 @@ File: amdgpu/verde_me.bin
 File: amdgpu/verde_pfp.bin
 File: amdgpu/verde_rlc.bin
 File: amdgpu/verde_smc.bin
+File: amdgpu/verde_uvd.bin
 File: amdgpu/hainan_ce.bin
 File: amdgpu/hainan_k_smc.bin
 File: amdgpu/hainan_mc.bin
@@ -1920,6 +1923,7 @@ File: amdgpu/oland_me.bin
 File: amdgpu/oland_pfp.bin
 File: amdgpu/oland_rlc.bin
 File: amdgpu/oland_smc.bin
+File: amdgpu/oland_uvd.bin
 File: amdgpu/si58_mc.bin
 File: amdgpu/banks_k_2_smc.bin
 File: amdgpu/bonaire_ce.bin
