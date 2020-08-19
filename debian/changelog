@@ -1,3 +1,10 @@
+linux-firmware (1.187.3) focal; urgency=medium
+
+  * alsa/sof: support 1 and 3 dmics (LP: #1891585)
+    - SAUCE: sof-firmware: add 1ch and 3ch topology files
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 19 Aug 2020 13:17:13 -0500
+
 linux-firmware (1.187.2) focal; urgency=medium
 
   * Revert the sof-firmware and tplg files from v0.6_release for tgl machines
