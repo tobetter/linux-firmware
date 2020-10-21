@@ -1071,6 +1071,9 @@ Version: 48.4fa0041f.0
 File: iwlwifi-QuZ-a0-jf-b0-48.ucode
 Version: 48.4fa0041f.0
 
+File: iwlwifi-QuZ-a0-hr-b0-50.ucode
+Version: 50.3e391d3e.0
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
