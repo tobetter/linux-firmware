@@ -1,3 +1,13 @@
+linux-firmware (1.187.4) focal; urgency=medium
+
+  * Add new iwlwifi firmware to fix AX201 hang (LP: #1900883)
+    - UBUNTU: SAUCE: Add iwlwifi-QuZ-a0-hr-b0-50.ucode
+
+  * Fix broken Realtek 8821C BT after S3 (LP: #1901129)
+    - rtl_bt: Update RTL8821C BT FW to 0xAA6C_A99E
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 28 Oct 2020 16:05:46 -0500
+
 linux-firmware (1.187.3) focal; urgency=medium
 
   * alsa/sof: support 1 and 3 dmics (LP: #1891585)
