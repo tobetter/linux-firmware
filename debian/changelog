@@ -1,3 +1,28 @@
+linux-firmware (1.187.6) focal; urgency=medium
+
+  * Intel RocketLake graphics support (LP: #1902195)
+    - i915: Add DMC firmware 2.02 for RKL
+
+  * linux-firmware: intel AX200 (8087:0029) and AX201(8087:0026) bluetooth
+    firmware update (LP: #1905214)
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+    - linux-firmware: Update firmware file for Intel Bluetooth AX200
+    - linux-firmware: Update firmware file for Intel Bluetooth AX200
+    - linux-firmware: Update firmware file for Intel Bluetooth AX200
+    - linux-firmware: Update firmware file for Intel Bluetooth AX200
+    - linux-firmware: Update firmware file for Intel Bluetooth AX200
+
+  * [SRU]sof-firmware: update the sof-firmware from version v1.4.2 to
+    stable-v1.6 (LP: #1900809)
+    - UBUNTU: SAUCE: sof-firmware: update the sof-firmware to stable-v1.6
+    - UBUNTU: SAUCE: sof-firmware: Replace duplicates with symbolic links
+
+ -- Juerg Haefliger <juergh@canonical.com>  Thu, 26 Nov 2020 17:40:30 +0100
+
 linux-firmware (1.187.4) focal; urgency=medium
 
   * Add new iwlwifi firmware to fix AX201 hang (LP: #1900883)
