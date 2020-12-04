@@ -1095,6 +1095,9 @@ Version: 55.d9698065.0
 File: iwlwifi-QuZ-a0-jf-b0-55.ucode
 Version: 55.d9698065.0
 
+File: iwlwifi-ty-a0-gf-a0-59.ucode
+Version: 59.601f3a66.0
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
