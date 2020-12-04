@@ -3193,6 +3193,10 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 Driver: ath11k - Qualcomm Technologies 802.11ax chipset support
 
 File: ath11k/QCA6390/hw2.0/board-2.bin
+File: ath11k/QCA6390/hw2.0/amss.bin
+File: ath11k/QCA6390/hw2.0/m3.bin
+Version: WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+Licence: ath11k/QCA6390/hw2.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
