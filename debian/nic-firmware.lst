@@ -61,6 +61,7 @@ ipw2200-ibss.fw
 ipw2200-sniffer.fw
 ositech/Xilinx7OD.bin
 qed/qed_init_values_zipped-8.37.7.0.bin
+qed/qed_init_values_zipped-8.42.2.0.bin
 rt2561.bin
 rt2561s.bin
 rt2661.bin
@@ -86,6 +87,11 @@ rtl_nic/rtl8168g-3.fw
 rtl_nic/rtl8168h-1.fw
 rtl_nic/rtl8168h-2.fw
 rtl_nic/rtl8402-1.fw
+rtl_nic/rtl8153a-2.fw
+rtl_nic/rtl8153a-3.fw
+rtl_nic/rtl8153a-4.fw
+rtl_nic/rtl8153b-2.fw
+rtl_nic/rtl8168fp-3.fw
 sun/cassini.bin
 tigon/tg3.bin
 tigon/tg3_tso5.bin
@@ -97,6 +103,9 @@ bnx2/bnx2-rv2p-09-6.0.17.fw
 bnx2x/bnx2x-e1-7.13.11.0.fw
 bnx2x/bnx2x-e1h-7.13.11.0.fw
 bnx2x/bnx2x-e2-7.13.11.0.fw
+bnx2x/bnx2x-e1-7.13.15.0.fw
+bnx2x/bnx2x-e1h-7.13.15.0.fw
+bnx2x/bnx2x-e2-7.13.15.0.fw
 phanfw.bin
 iwlwifi-1000-5.ucode
 iwlwifi-100-5.ucode
@@ -127,6 +136,13 @@ iwlwifi-Qu-c0-hr-b0-48.ucode
 iwlwifi-QuZ-a0-hr-b0-48.ucode
 iwlwifi-QuZ-a0-jf-b0-48.ucode
 iwlwifi-cc-a0-48.ucode
+iwlwifi-Qu-b0-hr-b0-55.ucode
+iwlwifi-Qu-b0-jf-b0-55.ucode
+iwlwifi-Qu-c0-hr-b0-55.ucode
+iwlwifi-Qu-c0-jf-b0-55.ucode
+iwlwifi-QuZ-a0-hr-b0-55.ucode
+iwlwifi-QuZ-a0-jf-b0-55.ucode
+iwlwifi-cc-a0-55.ucode
 tigon/tg3_tso.bin
 zd1201.fw
 zd1211/zd1211b_ub
