@@ -1,3 +1,37 @@
+linux-firmware (1.187.7) focal; urgency=medium
+
+  * Update linux-firmware in focal for 5.8 hwe kernel (LP: #1907158)
+    - UBUNTU: [Debian] list-udeb-updates -- Add support for
+      linux-hwe-X.Y packages
+    - UBUNTU: amdgpu -- Add navi14 and vega20 TA firmware for 5.8 hwe kernel
+    - linux-firmware: add firmware for MT7663 Wifi/BT combo device
+    - linux-firmware: add rebb firmware for mt7663
+    - linux-firmware: add firmware for MT7915E
+    - Update binary firmware for MT7663 based devices to include firmware
+      offload feature and low power feature.
+    - UBUNTU: iwlwifi -- Add new firmware files for 5.8 hwe kernel
+    - UBUNTU: Update nic-firmware udeb for 5.8 hwe kernel
+
+  * Support Intel AX210 wifi [8086:2725] Subsystem [8086:4020]
+    (LP: #1902848)
+    - UBUNTU: SAUCE: iwlwifi: Add iwlwifi-ty-a0-gf-a0-59.ucode from
+      core56-54 release
+
+  * Add support for Intel Bluetooth Device Typhoon Peak (8087:0032)
+    (LP: #1890130)
+    - linux-firmware: Update firmware file for Intel Bluetooth AX210
+    - linux-firmware: Update firmware file for Intel Bluetooth AX210
+
+  * Killer 500s (QCA6390) WLAN/BT [17cb:1101] unavailable (LP: #1879633)
+    - QCA: Add Bluetooth firmware for QCA6390
+    - QCA: Update Bluetooth firmware for QCA6390
+    - ath11k: QCA6390 hw2.0: add board-2.bin
+    - ath11k: QCA6390 hw2.0: add to
+      WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+    - QCA: Update Bluetooth firmware for QCA6390
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 14 Dec 2020 10:50:25 -0600
+
 linux-firmware (1.187.6) focal; urgency=medium
 
   * Intel RocketLake graphics support (LP: #1902195)
