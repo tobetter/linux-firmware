@@ -1,3 +1,14 @@
+linux-firmware (1.187.8) focal; urgency=medium
+
+  * Failed to load DMC firmware i915/tgl_dmc_ver2_08.bin (LP: #1908366)
+    - i915: Add DMC firmware 2.08 for TGL
+
+  * Fix Realtek 8821c bluetooth fails reconnect BLE devices after suspend
+    (LP: #1909705)
+    - rtl_bt: Update RTL8821C BT(USB I/F) FW to 0x829a_7644
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 07 Jan 2021 09:52:55 -0600
+
 linux-firmware (1.187.7) focal; urgency=medium
 
   * Update linux-firmware in focal for 5.8 hwe kernel (LP: #1907158)
