@@ -1,3 +1,10 @@
+linux-firmware (1.187.9) focal; urgency=medium
+
+  *  Need a new firmware to support RTL8821ce Wifi (LP: #1910664)
+     - rtw88: RTL8821C: add firmware file v24.5
+
+ -- Timo Aaltonen <timo.aaltonen@canonical.com>  Mon, 18 Jan 2021 19:58:52 +0200
+
 linux-firmware (1.187.8) focal; urgency=medium
 
   * Failed to load DMC firmware i915/tgl_dmc_ver2_08.bin (LP: #1908366)
