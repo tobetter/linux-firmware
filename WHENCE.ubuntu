@@ -348,3 +348,13 @@ Licence: Redistributable. See LICENSE.sof
 Also available from https://github.com/thesofproject/sof/blob/master/LICENCE
 
 --------------------------------------------------------------------------
+
+Driver: intel-ipu6 - Intel IPU6 driver
+
+File: intel/ipu6_fw.bin
+
+Licence: Redistributable. See LICENSE.ipu6_firmware
+Also available from https://github.com/intel/ipu6-camera-bins/blob/main/LICENSE
+
+
+--------------------------------------------------------------------------
