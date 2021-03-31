@@ -1,3 +1,14 @@
+linux-firmware (1.190.4) groovy; urgency=medium
+
+  * Fix stale brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt symlink
+    (LP: #1918698)
+    - brcm: Fix a stale symlink for RPi3 model b+
+
+  * alsa/sdw: support soundwire audio for TGL-H machines (LP: #1911830)
+    - SAUCE: sof-firmware: add TGL-H firmware from sof-bin v1.6.1
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 31 Mar 2021 14:41:15 -0500
+
 linux-firmware (1.190.3) groovy; urgency=medium
 
   * Fix Realtek 8821c bluetooth fails reconnect BLE devices after suspend
