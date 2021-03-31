@@ -1,3 +1,13 @@
+linux-firmware (1.187.11) focal; urgency=medium
+
+  * Add in-tree Realtek 8821CE wireless module support (LP: #1885862)
+    - rtw88: RTL8821C: Update firmware to v24.8
+
+  * alsa/sdw: support soundwire audio for TGL-H machines (LP: #1911830)
+    - SAUCE: sof-firmware: add TGL-H firmware from sof-bin v1.6.1
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 31 Mar 2021 15:34:04 -0500
+
 linux-firmware (1.187.10) focal; urgency=medium
 
   * Possible missing firmware /lib/firmware/rtl_nic/rtl8125b-2.fw for module
