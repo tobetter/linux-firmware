@@ -1,3 +1,10 @@
+linux-firmware (1.190.5) groovy; urgency=medium
+
+  * Add realtek 8852 bluetooth fimware (LP: #1924203)
+    - rtl_bt: Add firmware and config files for RTL8852A BT USB chip
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 26 Apr 2021 07:53:48 -0500
+
 linux-firmware (1.190.4) groovy; urgency=medium
 
   * Fix stale brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt symlink
