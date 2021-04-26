@@ -1,3 +1,14 @@
+linux-firmware (1.187.12) focal; urgency=medium
+
+  * Support MIPI camera through Intel IPU6 (LP: #1921345)
+    - SAUCE: intel-ipu6: Add IPU6 firmware files
+    - SAUCE: intel-ipu6: update IPU6 Release_20210121 WW04 firmware files
+
+  * Add realtek 8852 bluetooth fimware (LP: #1924203
+    - rtl_bt: Add firmware and config files for RTL8852A BT USB chip
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Mon, 26 Apr 2021 07:58:04 -0500
+
 linux-firmware (1.187.11) focal; urgency=medium
 
   * Add in-tree Realtek 8821CE wireless module support (LP: #1885862)
