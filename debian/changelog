@@ -1,3 +1,11 @@
+linux-firmware (1.187.13) focal; urgency=medium
+
+  * Fix noisy audio when volume is at maximum (LP: #1926236)
+    - amdgpu: update navi14 smc firmware
+    - amdgpu: update navi10 SMC firmware
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 18 May 2021 09:03:58 -0500
+
 linux-firmware (1.187.12) focal; urgency=medium
 
   * Support MIPI camera through Intel IPU6 (LP: #1921345)
