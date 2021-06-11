@@ -1,3 +1,14 @@
+linux-firmware (1.187.15) focal; urgency=medium
+
+  * Failed to load DMC firmware i915/adls_dmc_ver2_01.bin (LP: #1929516)
+    - i915: Add DMC v2.01 for ADL-S
+
+  * Add realtek 8852a wifi fimware (LP: #1931677)
+    - rtw89: 8852a: add firmware v0.9.12.2
+    - rtw89: 8852a: update fw to v0.13.8.0
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 11 Jun 2021 10:19:40 -0500
+
 linux-firmware (1.187.14) focal; urgency=medium
 
   * Fix system hang with 5.10 kernel + RX540 on RKL platform (LP: #1929147)
