@@ -1,3 +1,11 @@
+linux-firmware (1.190.6) groovy; urgency=medium
+
+  * Add realtek 8852a wifi fimware (LP: #1931677)
+    - rtw89: 8852a: add firmware v0.9.12.2
+    - rtw89: 8852a: update fw to v0.13.8.0
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Fri, 11 Jun 2021 09:33:49 -0500
+
 linux-firmware (1.190.5) groovy; urgency=medium
 
   * Add realtek 8852 bluetooth fimware (LP: #1924203)
