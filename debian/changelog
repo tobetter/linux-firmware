@@ -1,3 +1,10 @@
+linux-firmware (1.197.2) hirsute; urgency=medium
+
+  * Add realtek 8852a wifi fimware (LP: #1931677)
+    - rtw89: 8852a: update fw to v0.13.8.0
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 22 Jun 2021 13:55:53 -0500
+
 linux-firmware (1.197.1) hirsute; urgency=medium
 
   * Fix system hang with 5.10 kernel + RX540 on RKL platform (LP: #1929147)
