@@ -1,3 +1,17 @@
+linux-firmware (1.197.3) hirsute; urgency=medium
+
+  * [SRU][F/H/I] Add MT7921 wifi fw (LP: #1936452)
+    - linux-firmware: update firmware for MT7921 WiFi device
+    - linux-firmware: update firmware for MT7921 WiFi device to 20210612122753
+    - linux-firmware: update frimware for mediatek bluetooth chip (MT7921)
+
+  * To support AMD W6600 and W6700 (LP: #1938149)
+    - amdgpu: update sienna cichlid firmware from 21.10
+    - amdgpu: update sienna cichlid firmware from 21.20
+    - amdgpu: add initial dimgrey cavefish firmware from 21.20
+
+ -- Timo Aaltonen <timo.aaltonen@canonical.com>  Mon, 02 Aug 2021 18:21:43 +0300
+
 linux-firmware (1.197.2) hirsute; urgency=medium
 
   * Add realtek 8852a wifi fimware (LP: #1931677)
