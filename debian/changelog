@@ -1,3 +1,33 @@
+linux-firmware (1.187.16) focal; urgency=medium
+
+  * Intel Killer(R) Wi-Fi 6 AX1650i [8086:a0f0] Subsystem [1a56:1651]: iwlwifi
+    firmware crash under iperf stress tests: Microcode SW error detected.
+    Restarting 0x0 (LP: #1934217)
+    - iwlwifi: update and add new FWs from core56-54 release
+
+  * [SRU] Update amdgpu/renoir firmware (LP: #1934014)
+    - amdgpu: update renoir firmware from 21.20
+
+  * To support AMD W6600 and W6700 (LP: #1938149)
+    - amdgpu: add sienna cichlid firmware for 20.45
+    - amdgpu: update sienna cichlid firmware for 20.50
+    - amdgpu: update sienna cichlid firmware from 21.10
+    - amdgpu: update sienna cichlid firmware from 21.20
+    - amdgpu: add initial dimgrey cavefish firmware from 21.20
+
+  * [SRU][F/H/I] Add MT7921 wifi fw (LP: #1936452)
+    - linux-firmware: add firmware for MT7921
+    - linux-firmware: update firmware for MT7921 WiFi device
+    - linux-firmware: update firmware for MT7921 WiFi device to 20210612122753
+    - linux-firmware: add frimware for mediatek bluetooth chip (MT7921)
+    - linux-firmware: update frimware for mediatek bluetooth chip (MT7921)
+
+  * Intel AX210 iwlwifi firmware crash under stress tests: Microcode SW error
+    detected. Restarting 0x0. (LP: #1933415)
+    - iwlwifi: add new FWs from core60-51 release
+
+ -- Timo Aaltonen <timo.aaltonen@canonical.com>  Mon, 02 Aug 2021 18:41:24 +0300
+
 linux-firmware (1.187.15) focal; urgency=medium
 
   * Failed to load DMC firmware i915/adls_dmc_ver2_01.bin (LP: #1929516)
