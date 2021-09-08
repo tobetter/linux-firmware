@@ -1,3 +1,10 @@
+linux-firmware (1.187.17) focal; urgency=medium
+
+  * Support Alder Lake P graphics (LP: #1940504)
+    - i915: Add ADL-P DMC Support
+
+ -- Timo Aaltonen <timo.aaltonen@canonical.com>  Wed, 08 Sep 2021 10:01:19 +0300
+
 linux-firmware (1.187.16) focal; urgency=medium
 
   * Intel Killer(R) Wi-Fi 6 AX1650i [8086:a0f0] Subsystem [1a56:1651]: iwlwifi
