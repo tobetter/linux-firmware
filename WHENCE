@@ -2431,6 +2431,18 @@ File: amdgpu/dimgrey_cavefish_smc.bin
 File: amdgpu/dimgrey_cavefish_sos.bin
 File: amdgpu/dimgrey_cavefish_ta.bin
 File: amdgpu/dimgrey_cavefish_vcn.bin
+File: amdgpu/yellow_carp_asd.bin
+File: amdgpu/yellow_carp_ce.bin
+File: amdgpu/yellow_carp_dmcub.bin
+File: amdgpu/yellow_carp_me.bin
+File: amdgpu/yellow_carp_mec.bin
+File: amdgpu/yellow_carp_mec2.bin
+File: amdgpu/yellow_carp_pfp.bin
+File: amdgpu/yellow_carp_rlc.bin
+File: amdgpu/yellow_carp_sdma.bin
+File: amdgpu/yellow_carp_ta.bin
+File: amdgpu/yellow_carp_toc.bin
+File: amdgpu/yellow_carp_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
