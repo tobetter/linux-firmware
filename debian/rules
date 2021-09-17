@@ -74,3 +74,6 @@ clean:
 	dh_testdir
 	dh_testroot
 	dh_clean
+
+release:
+	debian/scripts/close-release
