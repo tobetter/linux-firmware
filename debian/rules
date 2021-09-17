@@ -79,3 +79,6 @@ clean:
 
 rebase:
 	debian/scripts/rebase-upstream
+
+release:
+	debian/scripts/close-release
