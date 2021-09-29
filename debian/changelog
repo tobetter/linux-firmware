@@ -1,3 +1,11 @@
+linux-firmware (1.187.18) focal; urgency=medium
+
+  * [Packaging] Add close-release helper script and debian rule
+  * i915: Update ADLP DMC v2.12 (LP: #1945438)
+  * amdgpu: add initial firmware for Yellow Carp (LP: #1945227)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 29 Sep 2021 11:57:55 +0300
+
 linux-firmware (1.187.17) focal; urgency=medium
 
   * Support Alder Lake P graphics (LP: #1940504)
