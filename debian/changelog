@@ -1,10 +1,18 @@
-linux-firmware (1.187.18) focal; urgency=medium
+linux-firmware (1.187.19) focal; urgency=medium
 
+  * Add Intel WiFi/Bluetooth firmware for ADL-S/ADL-P (LP: #1933938)
+    - iwlwifi: add FWs for new So device types with multiple RF modules
+    - linux-firmware: Update firmware file for Intel Bluetooth AX211
+    - linux-firmware: Update firmware file for Intel Bluetooth 9560
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+    - linux-firmware: Update firmware file for Intel Bluetooth AX211
+    - linux-firmware: Update firmware file for Intel Bluetooth 9462
+  * Revert "amdgpu: update renoir firmware from 21.20" (LP: #1945565)
   * [Packaging] Add close-release helper script and debian rule
   * i915: Update ADLP DMC v2.12 (LP: #1945438)
   * amdgpu: add initial firmware for Yellow Carp (LP: #1945227)
 
- -- Timo Aaltonen <tjaalton@debian.org>  Wed, 29 Sep 2021 11:57:55 +0300
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 30 Sep 2021 16:29:46 +0300
 
 linux-firmware (1.187.17) focal; urgency=medium
 
