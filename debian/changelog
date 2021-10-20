@@ -1,3 +1,14 @@
+linux-firmware (1.187.20) focal; urgency=medium
+
+  * amdgpu: Add initial firmware for Beige Goby (LP: #1946304)
+  * Update firmware for MT7921 WiFi/Bluetooth (LP: #1947829)
+    - linux-firmware: update frimware for mediatek bluetooth chip (MT7921)
+    - linux-firmware: update frimware for mediatek bluetooth chip (MT7921)
+    - linux-firmware: update frimware for mediatek bluetooth chip (MT7921)
+    - linux-firmware: update firmware for MT7921 WiFi device
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 20 Oct 2021 15:29:05 +0300
+
 linux-firmware (1.187.19) focal; urgency=medium
 
   * Add Intel WiFi/Bluetooth firmware for ADL-S/ADL-P (LP: #1933938)
