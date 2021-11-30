@@ -1,3 +1,11 @@
+linux-firmware (1.187.21) focal; urgency=medium
+
+  * i915: Add HuC firwmare v7.5.0 for TGL
+  * i915: Add DG1 DMC v2.02
+  * i915: Add GuC firmware v49.0.1 for all platforms
+
+ -- Juerg Haefliger <juergh@canonical.com>  Tue, 30 Nov 2021 16:03:45 +0100
+
 linux-firmware (1.187.20) focal; urgency=medium
 
   * amdgpu: Add initial firmware for Beige Goby (LP: #1946304)
