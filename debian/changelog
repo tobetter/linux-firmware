@@ -1,3 +1,10 @@
+linux-firmware (1.187.24) focal; urgency=medium
+
+  * amdgpu: add UVD firmware for SI asics (LP: #1953249)
+  * linux-firmware: update frimware for mediatek bluetooth chip (MT7921) (LP: #1954300)
+
+ -- Juerg Haefliger <juergh@canonical.com>  Thu, 16 Dec 2021 16:01:58 +0100
+
 linux-firmware (1.187.23) focal; urgency=medium
 
   * i915: Add HuC firwmare v7.5.0 for TGL (LP: #1939986)
