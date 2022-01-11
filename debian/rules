@@ -81,8 +81,5 @@ clean:
 	    $(MAKE) -f debian/rules check; \
 	fi
 
-release:
-	debian/scripts/close-release
-
 check:
 	$(MAKE) check
