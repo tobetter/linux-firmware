@@ -1,3 +1,33 @@
+linux-firmware (1.187.26) focal; urgency=medium
+
+  * [SRU][F] Add firmware of MT7922 (LP: #1958153)
+    - linux-firmware: add firmware for MT7922
+    - linux-firmware: add frimware for mediatek bluetooth chip (MT7922)
+  * linux-firmware missing renoir_ta (LP: #1958283)
+    - amdgpu: update renoir firmware for 20.10
+    - amdgpu: update renoir firmware from 20.20 release
+    - amdgpu: update renoir firmware for 20.30
+    - amdgpu: update renoir firmware for 20.40
+    - amdgpu: update renoir firmware for 20.45
+    - amdgpu: update renoir firmware for 20.50
+    - amdgpu: update renoir firmware from 21.10
+    - amdgpu: update renoir firmware from 21.20
+    - amdgpu: update vcn firmware for renoir for 21.20
+    - amdgpu: update renoir firmware from 21.30
+    - amdgpu: update VCN firmware for renoir
+  * mt7921e 0000:02:00.0: PM: failed to resume async: error -110 (LP: #1958286)
+    - linux-firmware: update frimware for mediatek bluetooth chip (MT7921)
+    - linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
+    - linux-firmware: update firmware for MT7921 WiFi device
+    - linux-firmware: update firmware for MT7921 WiFi device
+    - linux-firmware: update firmware for mediatek bluetooth chip(MT7921)
+  * [SRU][F] Add mt8183 SCP firmware (LP: #1959064)
+    - mediatek: Add mt8183 SCP firmware
+  * AMD Yellow Carp DMCUB fw update for s0i3 B0 fixes (LP: #1957026)
+    - amdgpu: update yellow carp dmcub firmware
+
+ -- Juerg Haefliger <juergh@canonical.com>  Fri, 28 Jan 2022 10:54:30 +0100
+
 linux-firmware (1.187.25) focal; urgency=medium
 
   * SAUCE: Camera bins release on 2021-11-01 for Alder Lake (LP: #1955383)
