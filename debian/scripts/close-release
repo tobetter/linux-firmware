@@ -1,0 +1,81 @@
+#!/bin/bash -eu
+#
+# Close a release
+#
+
+function usage()
+{
+	cat <<EOF
+Usage: $(basename "${0}") [-h] [VERSION]
+
+Create a release commit.
+
+Positional arguments:
+  VERSION     The new package version. If not provided, increments the current
+              version by one.
+
+Optional arguments:
+  -h, --help  Show this help text and exit.
+EOF
+}
+
+new_version=
+
+while [ ${#} -gt 0 ] ; do
+	case "${1}" in
+		-h|--help)
+			usage
+			exit
+			;;
+		*)
+			if [ -n "${new_version}" ] ; then
+				echo "Invalid argument: ${1}" >&2
+				exit 2
+			fi
+			new_version=${1}
+			;;
+	esac
+	shift
+done
+
+release=$(dpkg-parsechangelog -SDistribution)
+version=$(dpkg-parsechangelog -SVersion)
+
+# The version and tag of the new release
+if [ -z "${new_version}" ] ; then
+	new_version="${version%.*}.$((${version##*.} + 1))"
+fi
+new_tag="Ubuntu-${new_version}"
+
+# Check if the tag exists already
+if git rev-parse "${new_tag}" >/dev/null 2>&1 ; then
+	echo "Tag exists already: ${new_tag}" >&2
+	exit 1
+fi
+
+# Find the previous release commit
+prev_subject="UBUNTU: Ubuntu-${version}"
+prev_commit=$(git log --format='%H %s' | \
+				  grep -m1 -P "^[0-9a-f]{40} ${prev_subject}$" || true)
+prev_commit=${prev_commit%% *}
+if [ -z "${prev_commit}" ] ; then
+	echo "Unable to find previous release commit: ${prev_subject}" >&2
+	exit 1
+fi
+
+# Add a new changelog section with all the new commit subjects since the
+# previous release
+{
+	echo "linux-firmware (${new_version}) ${release}; urgency=medium"
+	echo
+	debian/scripts/generate-changelog "${prev_commit}"..
+	echo
+	echo " -- ${DEBFULLNAME} <${DEBEMAIL}>  $(date -R)"
+	echo
+	cat debian/changelog
+} > debian/changelog.new
+mv debian/changelog.new debian/changelog
+
+# Commit the new release
+git commit -s -m "UBUNTU: ${new_tag}" -- debian/changelog
+debian/scripts/tag-release
