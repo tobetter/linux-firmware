@@ -33,16 +33,12 @@ License: Redistributable. See LICENCE.ipw2100 for details
 
 Driver: zd1211rw - ZD1211 USB-WLAN driver for Linux
 
-File: zd1211b_ub
-File: zd1211b_uphm
-File: zd1211b_ur
-File: zd1211_uph
-File: zd1211_uphr
-File: zd1211b_uph
-File: zd1211b_uphr
-File: zd1211_ub
-File: zd1211_uphm
-File: zd1211_ur
+File: zd1211/zd1211_ub
+File: zd1211/zd1211_uphr
+File: zd1211/zd1211_ur
+File: zd1211/zd1211b_ub
+File: zd1211/zd1211b_uphr
+File: zd1211/zd1211b_ur
 
 Info: http://linux-lc100020.sourceforge.net/
 
@@ -77,33 +73,12 @@ License: Redistributable. See LICENCE.cx2341x for details
 
 Driver: atmel - Support for Atmel at76c50x 802.11 wireless ethernet cards.
 
-File: atmel_at76c502.bin
-File: atmel_at76c502_3com.bin
-File: atmel_at76c502d.bin
-File: atmel_at76c502e.bin
-File: atmel_at76c504.bin
 File: atmel_at76c504_2958.bin
 File: atmel_at76c504a_2958.bin
-File: atmel_at76c506.bin
 
 Info: atmelwlandriver.sourceforge.net
 
 License: Redistributable. See LICENCE.atmel for details
-
---------------------------------------------------------------------------
-
-Driver: rtl8192se - for RealTek RTL8191/2SE or RTL8171 wireless MACs
-
-File: rtl8192sfw492.bin
-File: rtl8192sfw74.bin
-File: rtl8192sfw.bin
-
-Info: The redistributable licence was transmitted electronically and contained 
-in a source package rtl8192se_linux_2.6.0015.0127.2010.tar.gz. This source 
-package was emailed by roger_liang <roger_liang@realtek.com> on Wed, 3 Mar 2010
-to 'Manoj Iyer' <manoj.iyer@canonical.com>
-
-License: Redistributable. See LICENCE.realtek-firmware.txt for details.
 
 --------------------------------------------------------------------------
 
