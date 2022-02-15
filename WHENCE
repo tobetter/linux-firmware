@@ -86,20 +86,6 @@ Licence: Redistributable. See LICENCE.qla1280 for details
 
 --------------------------------------------------------------------------
 
-Driver: smctr -- SMC ISA/MCA Token Ring adapter
-
-File: tr_smctr.bin
-Version: 6.3C1
-Info: MCT.BIN v6.3C1 03/01/95
-
-Original licence info:
-
- * This firmware is licensed to you strictly for use in conjunction
- * with the use of SMC TokenRing adapters. There is no waranty
- * expressed or implied about its fitness for any purpose.
-
---------------------------------------------------------------------------
-
 Driver: kaweth -- USB KLSI KL5USB101-based Ethernet device
 
 File: kaweth/new_code.bin
@@ -296,16 +282,6 @@ Converted from Intel HEX files, used in our binary representation of ihex.
 
 --------------------------------------------------------------------------
 
-Driver: ip2 -- Computone IntelliPort Plus serial device
-
-File: intelliport2.bin
-
-Licence: Unknown
-
-Found in hex form in kernel source.
-
---------------------------------------------------------------------------
-
 Driver: cpia2 -- cameras based on Vision's CPiA2
 
 File: cpia2/stv0672_vp4.bin
@@ -316,22 +292,6 @@ Licence: Allegedly GPLv2+, but no source visible. Marked:
 	Description: This file contains patch data for the CPiA2 (stv0672) VP4.
 
 Found in hex form in kernel source.
-
---------------------------------------------------------------------------
-
-Driver: dabusb -- Digital Audio Broadcasting (DAB) Receiver for USB and Linux
-
-File: dabusb/firmware.fw
-File: dabusb/bitstream.bin
-
-Licence: Distributable
-
- * Copyright (C) 1999 BayCom GmbH
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that redistributions of source
- * code retain the above copyright notice and this comment without
- * modification.
 
 --------------------------------------------------------------------------
 
@@ -443,20 +403,8 @@ Licence: Redistributable. See LICENCE.agere for details
 
 --------------------------------------------------------------------------
 
-Driver: ar9170 - Atheros 802.11n "otus" USB
-
-File: ar9170-1.fw
-File: ar9170-2.fw
-
-Licence: Redistributable. See LICENCE.atheros_firmware for details
-
---------------------------------------------------------------------------
-
 Driver: ath9k_htc - Atheros HTC devices (USB)
 
-File: ar9271.fw
-File: ar7010.fw
-File: ar7010_1_1.fw
 File: htc_9271.fw
 Version: 1.3.1
 File: htc_7010.fw
@@ -487,33 +435,8 @@ Driver: slicoss - Alacritech IS-NIC products
 
 File: slicoss/gbdownload.sys
 File: slicoss/gbrcvucode.sys
-File: slicoss/oasisdbgdownload.sys
 File: slicoss/oasisdownload.sys
 File: slicoss/oasisrcvucode.sys
-
-Licence:
-		Copyright (C) 1999-2009 Alacritech, Inc.
-
-	as an unpublished work. This notice does not imply unrestricted or
-	public access to the source code from which this firmware image is
-	derived.  Except as noted below this firmware image may not be
-	reproduced, used, sold or transferred to any third party without
-	Alacritech's prior written consent.  All Rights Reserved.
-
-	Permission is hereby granted for the distribution of this firmware
-	image as part of a Linux or other Open Source operating system kernel
-	in text or binary form as required.
-
-	This firmware may not be modified.
-
-Found in hex form in kernel source.
-
---------------------------------------------------------------------------
-
-Driver: sxg - Alacritech IS-NIC products
-
-File: sxg/saharadownloadB.sys
-File: sxg/saharadbgdownloadB.sys
 
 Licence:
 		Copyright (C) 1999-2009 Alacritech, Inc.
@@ -538,10 +461,6 @@ Driver: cxgb3 - Chelsio Terminator 3 1G/10G Ethernet adapter
 
 File: cxgb3/t3b_psram-1.1.0.bin
 File: cxgb3/t3c_psram-1.1.0.bin
-File: cxgb3/t3fw-7.0.0.bin
-File: cxgb3/t3fw-7.1.0.bin
-File: cxgb3/t3fw-7.4.0.bin
-File: cxgb3/t3fw-7.10.0.bin
 File: cxgb3/t3fw-7.12.0.bin
 
 Licence: GPLv2 or OpenIB.org BSD license, no source visible
@@ -663,16 +582,12 @@ File: libertas/cf8381.bin
 File: libertas/cf8381_helper.bin
 File: libertas/cf8385.bin
 File: libertas/cf8385_helper.bin
-File: libertas/gspi8682.bin
-File: libertas/gspi8682_helper.bin
 File: libertas/gspi8686_v9.bin
 File: libertas/gspi8686_v9_helper.bin
 File: libertas/gspi8688.bin
 File: libertas/gspi8688_helper.bin
 File: libertas/sd8385.bin
 File: libertas/sd8385_helper.bin
-File: libertas/sd8682.bin
-File: libertas/sd8682_helper.bin
 File: libertas/sd8686_v8.bin
 File: libertas/sd8686_v8_helper.bin
 File: libertas/sd8686_v9.bin
@@ -692,14 +607,8 @@ Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
 
 Driver: libertas - Marvell Libertas 802.11b/g cards, OLPC firmware
 
-File: libertas/lbtf_sdio.bin
-Version: 9.0.7.p4
-
 File: lbtf_usb.bin
 Version: 5.132.3.p1
-
-File: libertas/usb8388_olpc.bin
-Version: 5.110.22.p23
 
 Licence: Redistributable. See LICENCE.OLPC for details.
 
@@ -712,7 +621,6 @@ Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g/n cards
 File: mwl8k/fmimage_8687.fw
 File: mwl8k/helper_8687.fw
 File: mwl8k/fmimage_8366.fw
-File: mwl8k/fmimage_8366_ap-1.fw
 File: mwl8k/fmimage_8366_ap-2.fw
 File: mwl8k/fmimage_8366_ap-3.fw
 Version: 5.2.8.16
@@ -785,29 +693,17 @@ Version: 15.32.2.9
 File: iwlwifi-4965-2.ucode
 Version: 228.61.2.24
 
-File: iwlwifi-5000-1.ucode
-Version: 5.4.A.11 (aka 5.4.1.16)
-
-File: iwlwifi-5000-2.ucode
-Version: 8.24.2.12
-
 File: iwlwifi-5000-5.ucode
 Version: 8.83.5.1
 
 File: iwlwifi-5150-2.ucode
 Version: 8.24.2.2
 
-File: iwlwifi-1000-3.ucode
-Version: 128.50.3.1
-
 File: iwlwifi-1000-5.ucode
 Version: 39.31.5.1
 
 File: iwlwifi-6000-4.ucode
 Version: 9.221.4.1
-
-File: iwlwifi-6050-4.ucode
-Version: 9.201.4.1
 
 File: iwlwifi-6050-5.ucode
 Version: 41.28.5.1
@@ -817,9 +713,6 @@ Version: 17.168.5.3
 
 File: iwlwifi-6000g2a-6.ucode
 Version: 18.168.6.1
-
-File: iwlwifi-6000g2b-5.ucode
-Version: 17.168.5.1
 
 File: iwlwifi-6000g2b-6.ucode
 Version: 18.168.6.1
@@ -1152,32 +1045,6 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
-Driver: 3c359 - 3Com 3C359 Token Link Velocity XL adapter
-
-File: 3com/3C359.bin
-
-Licence:
-/*
- * The firmware this driver downloads into the tokenring card is a
- * separate program and is not GPL'd source code, even though the Linux
- * side driver and the routine that loads this data into the card are.
- *
- * This firmware is licensed to you strictly for use in conjunction
- * with the use of 3Com 3C359 TokenRing adapters. There is no
- * waranty expressed or implied about its fitness for any purpose.
- */
-/* 3c359_microcode.mac: 3Com 3C359 Tokenring microcode.
- *
- * Notes:
- *  - Loaded from xl_init upon adapter initialization.
- *
- * Available from 3Com as part of their standard 3C359 driver.
- */
-
-Found in hex form in kernel source.
-
---------------------------------------------------------------------------
-
 Driver: pcnet_cs - NE2000 compatible PCMCIA adapter
 
 File: cis/LA-PCM.cis
@@ -1322,60 +1189,11 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
-Driver: myri_sbus - MyriCOM Gigabit Ethernet
-
-File: myricom/lanai.bin
-
-Licence: Unknown
-
-Found in hex form in kernel source.
-
---------------------------------------------------------------------------
-
 Driver: bnx2x: Broadcom Everest
 
-File: bnx2x-e1-4.8.53.0.fw
-File: bnx2x-e1h-4.8.53.0.fw
-File: bnx2x-e1-5.2.7.0.fw
-File: bnx2x-e1h-5.2.7.0.fw
-File: bnx2x-e1-5.2.13.0.fw
-File: bnx2x-e1h-5.2.13.0.fw
-File: bnx2x/bnx2x-e1-6.0.34.0.fw
-File: bnx2x/bnx2x-e1h-6.0.34.0.fw
-File: bnx2x/bnx2x-e2-6.0.34.0.fw
-File: bnx2x/bnx2x-e1-6.2.5.0.fw
-File: bnx2x/bnx2x-e1h-6.2.5.0.fw
-File: bnx2x/bnx2x-e2-6.2.5.0.fw
-File: bnx2x/bnx2x-e1-6.2.9.0.fw
-File: bnx2x/bnx2x-e1h-6.2.9.0.fw
-File: bnx2x/bnx2x-e2-6.2.9.0.fw
-File: bnx2x/bnx2x-e2-7.0.20.0.fw
-File: bnx2x/bnx2x-e1-7.0.20.0.fw
-File: bnx2x/bnx2x-e1h-7.0.20.0.fw
-File: bnx2x/bnx2x-e2-7.0.23.0.fw
-File: bnx2x/bnx2x-e1-7.0.23.0.fw
-File: bnx2x/bnx2x-e1h-7.0.23.0.fw
-File: bnx2x/bnx2x-e2-7.0.29.0.fw
-File: bnx2x/bnx2x-e1-7.0.29.0.fw
-File: bnx2x/bnx2x-e1h-7.0.29.0.fw
-File: bnx2x/bnx2x-e2-7.2.16.0.fw
-File: bnx2x/bnx2x-e1-7.2.16.0.fw
-File: bnx2x/bnx2x-e1h-7.2.16.0.fw
 File: bnx2x/bnx2x-e2-7.2.51.0.fw
 File: bnx2x/bnx2x-e1-7.2.51.0.fw
 File: bnx2x/bnx2x-e1h-7.2.51.0.fw
-File: bnx2x/bnx2x-e1-7.8.2.0.fw
-File: bnx2x/bnx2x-e1h-7.8.2.0.fw
-File: bnx2x/bnx2x-e2-7.8.2.0.fw
-File: bnx2x/bnx2x-e1-7.8.17.0.fw
-File: bnx2x/bnx2x-e1h-7.8.17.0.fw
-File: bnx2x/bnx2x-e2-7.8.17.0.fw
-File: bnx2x/bnx2x-e1-7.8.19.0.fw
-File: bnx2x/bnx2x-e1h-7.8.19.0.fw
-File: bnx2x/bnx2x-e2-7.8.19.0.fw
-File: bnx2x/bnx2x-e1-7.10.51.0.fw
-File: bnx2x/bnx2x-e1h-7.10.51.0.fw
-File: bnx2x/bnx2x-e2-7.10.51.0.fw
 File: bnx2x/bnx2x-e1-7.12.30.0.fw
 File: bnx2x/bnx2x-e1h-7.12.30.0.fw
 File: bnx2x/bnx2x-e2-7.12.30.0.fw
@@ -1547,11 +1365,8 @@ from http://www.mediatek.com/en/downloads1/downloads/
 Driver: rt2870sta - Ralink RT2870, RT3070, RT3071 wireless MACs
 
 Link: rt3070.bin -> rt2870.bin
-File: rt3071.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
-
-rt3071.bin is a copy of bytes 4096-8191 of rt2870.bin for compatibility.
 
 --------------------------------------------------------------------------
 
@@ -1593,7 +1408,7 @@ Driver: dib0700 - DiBcom dib0700 USB DVB bridge driver
 File: dvb-usb-dib0700-1.20.fw
 Version: 1.20
 
-Licence: Redistributable. See LICENSE.dib0700 for details
+Licence: Redistributable. See LICENCE.dib0700 for details
 
 --------------------------------------------------------------------------
 
@@ -2164,7 +1979,6 @@ File: amdgpu/polaris12_uvd.bin
 File: amdgpu/polaris12_vce.bin
 File: amdgpu/vegam_ce.bin
 File: amdgpu/vegam_me.bin
-File: amdgpu/vegam_me_2.bin
 File: amdgpu/vegam_mec.bin
 File: amdgpu/vegam_mec2.bin
 File: amdgpu/vegam_pfp.bin
@@ -2401,24 +2215,16 @@ Licence: Redistributable. See LICENCE.ueagle-atm4-firmware for details
 Driver: ueagle-atm - Driver for USB ADSL Modems based on Eagle I,II,III
 
 File: ueagle-atm/930-fpga.bin
-File: ueagle-atm/CMVeiWO.bin    
-File: ueagle-atm/CMVepFR10.bin  
 File: ueagle-atm/DSP9p.bin	
 File: ueagle-atm/eagleIII.fw
 File: ueagle-atm/adi930.fw     
 File: ueagle-atm/CMVep.bin      
-File: ueagle-atm/CMVepFR.bin    
 File: ueagle-atm/DSPei.bin
 File: ueagle-atm/CMV9i.bin     
-File: ueagle-atm/CMVepES03.bin  
-File: ueagle-atm/CMVepIT.bin    
 File: ueagle-atm/DSPep.bin
 File: ueagle-atm/CMV9p.bin     
-File: ueagle-atm/CMVepES.bin    
-File: ueagle-atm/CMVepWO.bin    
 File: ueagle-atm/eagleI.fw
 File: ueagle-atm/CMVei.bin     
-File: ueagle-atm/CMVepFR04.bin  
 File: ueagle-atm/DSP9i.bin	    
 File: ueagle-atm/eagleII.fw
 Version: 1.1
@@ -2498,16 +2304,6 @@ Licence: Redistributable. See LICENCE.cypress for details.
 
 --------------------------------------------------------------------------
 
-Driver: tda7706 - FM radio Highly integrated tuner for AM/FM car-radio
-
-File: TDA7706_OM_v2.5.1_boot.txt
-File: TDA7706_OM_v3.0.2_boot.txt
-
-Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
-        Copyright © 2010 STMicroelectronics
-
---------------------------------------------------------------------------
-
 Driver: wl1251 - Texas Instruments 802.11 WLAN driver for WiLink4 chips
 
 File: ti-connectivity/wl1251-fw.bin
@@ -2528,16 +2324,6 @@ wl12xx chips must be located in /lib/firmware/ti-connectivity/.
 
 Driver: wl12xx - Texas Instruments 802.11 WLAN driver for WiLink6/7 chips
 
-File: ti-connectivity/wl1271-fw.bin
-Version: 6.1.0.50.350 (STA-only)
-File: ti-connectivity/wl1271-fw-2.bin
-Version: 6.1.5.50.74 (STA-only)
-File: ti-connectivity/wl1271-fw-ap.bin
-Version: 6.2.1.0.54 (AP-only)
-File: ti-connectivity/wl127x-fw-3.bin
-Version: 6.3.0.0.77
-File: ti-connectivity/wl127x-fw-plt-3.bin
-Version: 6.3.0.0.77 (PLT-only)
 File: ti-connectivity/wl127x-fw-4-sr.bin
 Version: 6.3.5.0.98 (Single-role)
 File: ti-connectivity/wl127x-fw-4-mr.bin
@@ -2551,14 +2337,6 @@ Version: 6.5.7.0.50 (Multi-role)
 File: ti-connectivity/wl127x-fw-5-plt.bin
 Version: 6.3.10.0.142 (PLT-only)
 
-File: ti-connectivity/wl128x-fw.bin
-Version: 7.1.5.50.74 (STA-only)
-File: ti-connectivity/wl128x-fw-ap.bin
-Version: 7.2.1.0.54 (AP-only)
-File: ti-connectivity/wl128x-fw-3.bin
-Version: 7.3.0.0.77
-File: ti-connectivity/wl128x-fw-plt-3.bin
-Version: 7.3.0.0.77
 File: ti-connectivity/wl128x-fw-4-sr.bin
 Version: 7.3.5.0.98 (Single-role)
 File: ti-connectivity/wl128x-fw-4-mr.bin
@@ -2602,8 +2380,6 @@ the firmwares for wl12xx chips must be located in
 
 Driver: wl18xx - Texas Instruments 802.11 WLAN driver for WiLink8 chips
 
-File: ti-connectivity/wl18xx-fw.bin
-Version: 8.2.0.0.100
 File: ti-connectivity/wl18xx-fw-2.bin
 Version: 8.5.0.0.55
 File: ti-connectivity/wl18xx-fw-3.bin
@@ -2617,18 +2393,6 @@ The driver expects to find the firmwares under a ti-connectivity
 subdirectory.  So if your system looks for firmwares in /lib/firmware,
 the firmwares for wl18xx chips must be located in
 /lib/firmware/ti-connectivity/.
-
---------------------------------------------------------------------------
-
-Driver: TI_ST - Texas Instruments bluetooth driver
-
-File: ti-connectivity/TIInit_7.2.31.bts
-
-Licence: Redistributable. See LICENCE.ti-connectivity for details.
-
-	TIInit_7.2.31.bts version 7.2.31
-
-	In order to use that file copy it to /lib/firmware/ti-connectivity.
 
 --------------------------------------------------------------------------
 
@@ -2961,55 +2725,22 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ar3k for details
 
 --------------------------------------------------------------------------
 
-Driver:Atheros AR300x UART HCI Bluetooth Chip driver
-
-File: ar3k/1020201/PS_ASIC.pst
-File: ar3k/1020201/RamPatch.txt
-File: ar3k/1020200/ar3kbdaddr.pst
-File: ar3k/1020200/PS_ASIC.pst
-File: ar3k/1020200/RamPatch.txt
-File: ar3k/30101/ar3kbdaddr.pst
-File: ar3k/30101/PS_ASIC.pst
-File: ar3k/30101/RamPatch.txt
-File: ar3k/30000/ar3kbdaddr.pst
-File: ar3k/30000/PS_ASIC.pst
-File: ar3k/30000/RamPatch.txt
-
-Licence: Redistributable. See LICENCE.atheros_firmware for details
-
---------------------------------------------------------------------------
-
 Driver: ath6kl - Atheros support for AR6003
 
 File: ath6k/AR6004/hw1.3/fw-3.bin
 File: ath6k/AR6004/hw1.3/bdata.bin
 File: ath6k/AR6004/hw1.2/fw-2.bin
 File: ath6k/AR6004/hw1.2/bdata.bin
-File: ath6k/AR6003/hw1.0/otp.bin.z77
-File: ath6k/AR6003/hw1.0/bdata.SD31.bin
-File: ath6k/AR6003/hw1.0/bdata.SD32.bin
-File: ath6k/AR6003/hw1.0/data.patch.bin
-File: ath6k/AR6003/hw1.0/bdata.WB31.bin
-File: ath6k/AR6003/hw1.0/athwlan.bin.z77
 File: ath6k/AR6003/hw2.1.1/fw-2.bin
 File: ath6k/AR6003/hw2.1.1/fw-3.bin
 File: ath6k/AR6003/hw2.1.1/otp.bin
 File: ath6k/AR6003/hw2.1.1/athwlan.bin
-File: ath6k/AR6003/hw2.1.1/endpointping.bin
 File: ath6k/AR6003/hw2.1.1/bdata.SD31.bin
-File: ath6k/AR6003/hw2.1.1/bdata.SD32.bin
 File: ath6k/AR6003/hw2.1.1/data.patch.bin
-File: ath6k/AR6003/hw2.1.1/bdata.WB31.bin
 File: ath6k/AR6003/hw2.0/otp.bin.z77
 File: ath6k/AR6003/hw2.0/bdata.SD31.bin
-File: ath6k/AR6003/hw2.0/bdata.SD32.bin
 File: ath6k/AR6003/hw2.0/data.patch.bin
-File: ath6k/AR6003/hw2.0/bdata.WB31.bin
 File: ath6k/AR6003/hw2.0/athwlan.bin.z77
-File: ath6k/AR6002/eeprom.data
-File: ath6k/AR6002/eeprom.bin
-File: ath6k/AR6002/athwlan.bin.z77
-File: ath6k/AR6002/data.patch.hw2_0.bin
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
@@ -3083,32 +2814,6 @@ File: myri10ge_rss_ethp_big_z8e.dat
 Version: 1.4.57
 
 License: Redistributable.  See LICENCE.myri10ge_firmware for details.
-
---------------------------------------------------------------------------
-
-Driver: ath6kl - Atheros support for AR6003 WiFi-Bluetooth combo module
-
-File: ath6k/AR6003.1/hw2.1.1/athwlan.bin
-File: ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin
-File: ath6k/AR6003.1/hw2.1.1/bdata.SD32.bin
-File: ath6k/AR6003.1/hw2.1.1/bdata.WB31.bin
-File: ath6k/AR6003.1/hw2.1.1/data.patch.bin
-File: ath6k/AR6003.1/hw2.1.1/endpointping.bin
-File: ath6k/AR6003.1/hw2.1.1/otp.bin
-
-License: Redistributable. See LICENCE.atheros_firmware for details
-
---------------------------------------------------------------------------
-
-Driver: ath6kl - Atheros support for AR3001 WiFi-Bluetooth combo module
-
-File: ar3k/30101coex/ar3kbdaddr.pst
-File: ar3k/30101coex/PS_ASIC_aclLowPri.pst
-File: ar3k/30101coex/PS_ASIC_aclHighPri.pst
-File: ar3k/30101coex/PS_ASIC.pst
-File: ar3k/30101coex/RamPatch.txt
-
-License: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
 
