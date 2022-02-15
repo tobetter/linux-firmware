@@ -7,6 +7,16 @@ if known, for each piece of firmware distributed for use with the Linux
 kernel.
 
 --------------------------------------------------------------------------
+
+Driver: ixp4xx_eth - Intel XScale IXP ethernet driver
+
+File: NPE-B
+File: NPE-C
+
+License: Redistributable. See LICENCE.NPE for details.
+
+--------------------------------------------------------------------------
+
 Driver: ipw2200 - Intel ipw2200 wireless driver
 
 File: ipw2200-bss.fw
@@ -148,6 +158,8 @@ File: RTL8192E/main.img
 Licence: Redistributable, provided by Realtek in their driver
          source download.
 
+Licence: Redistributable. See LICENCE.realtek-firmware.txt for details.
+
 --------------------------------------------------------------------------
 
 Driver snd-soc-skl - ASoC Audio driver for SKL
@@ -176,7 +188,7 @@ File: intel/sof-tplg/sof-hda-generic.tplg
 Link: intel/sof-tplg/sof-hda-generic-2ch.tplg -> sof-hda-generic.tplg
 Link: intel/sof-tplg/sof-hda-generic-4ch.tplg -> sof-hda-generic.tplg
 
-Licence: Redistributable. See LICENSE.sof
+Licence: Redistributable. See LICENSE.sof for details.
 
 Also available from https://github.com/thesofproject/sof/blob/master/LICENCE
 
