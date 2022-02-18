@@ -1,3 +1,27 @@
+linux-firmware (1.173.21) bionic; urgency=medium
+
+  * Fix sanity checker and cleanup metadata (LP: #1953587)
+    - Makefile: improve `make check` usefulness
+    - check_whence: python3/utf-8 support
+    - SAUCE: check_whence.py: Add python3 shebang
+    - SAUCE: check_whence.py: Also process WHENCE.ubuntu
+    - SAUCE: check_whence.py: Ignore debian/ and fw_source/ directories
+    - SAUCE: check_whence.py: Ignore ea/ directory
+    - Fix File: entries in WHENCE.ubuntu
+    - SAUCE: Remove non-existing files from WHENCE
+    - Remove non-existing files from WHENCE.ubuntu
+    - SAUCE: Add missing files entries to WHENCE
+    - Add missing entries to WHENCE.ubuntu
+    - Remove unnecessary file LICENCE.tda7706-firmware.txt
+  * Miscellaneous Ubuntu changes
+    - [Packaging] Move scripts to debian/scripts
+    - [Packaging] Add check rule and call it in clean stage
+    - [Packaging] Add packaging helper scripts
+  * Missing firmware /lib/firmware/intel/ice/ddp/ice.pkg for ice driver (LP: #1960839)
+    - ice: Add package file for Intel E800 series driver
+
+ -- Juerg Haefliger <juergh@canonical.com>  Fri, 18 Feb 2022 15:59:21 +0100
+
 linux-firmware (1.173.20) bionic; urgency=medium
 
   * Possible missing firmware /lib/firmware/rtl_nic/rtl8125a-3.fw for module
