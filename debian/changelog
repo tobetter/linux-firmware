@@ -1,3 +1,87 @@
+linux-firmware (20220217.git6342082c-0ubuntu2) jammy; urgency=medium
+
+  * Miscellaneous Ubuntu changes
+    - [Packaging] Add list-downstream-status helper script
+    - [Packaging] Introduce remove-firmware concept
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete ueagle-atm from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete ueagle-atm firmware"
+    - [Packaging] Remove obsolete ueagle-atm firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete cxgb3 from WHENCE"
+    - SAUCE: Revert "UBUNTU: Drop obsolete cxgb3 firmware"
+    - [Packaging] Drop obsolete cxgb3 firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete files from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete iwlwifi ucode files"
+    - [Packaging] Remove obsolete iwlwifi ucode files
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete bnx2x from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete bnx2x firmware files"
+    - [Packaging]: Remove obsolete bnx2x firmware files
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete ar3k from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete ar3k firmware"
+    - [Packaging]: Remove obsolete ar3k firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete ath9k from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete ath9k firmware"
+    - [Packaging]: Remove obsolete ath9k firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete slicoss from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete slicoss firmware"
+    - [Packaging]: Remove obsolete slicoss firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete ath6k from WHENCE"
+    - SAUCE: Revert "UBUNT: Remove obsolete ath6k firmware"
+    - [Packaging]: Remove obsolete ath6k firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete 3com from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete 3com firmware"
+    - [Packaging]: Remove obsolete 3com firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete ath3k from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete ath3k firmware"
+    - [Packaging]: Remove obsolete ath3k firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete ar7010 from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete ar7010 firmware"
+    - [Packaging]: Remove obsolete ar7010 firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete ar9170 from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete ar9170 firmware"
+    - [Packaging]: Remove obsolete ar9170 firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete bnx2x from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete bnx2x firmware"
+    - [Packaging]: Remove obsolete bnx2x firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete cxgb from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete cxgb firmware"
+    - [Packaging]: Remove obsolete cxgb firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete dabusb from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete dabusb firmware"
+    - [Packaging]: Remove obsolete dabusb firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete Computone from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete Computone firmware"
+    - [Packaging]: Remove obsolete Computone firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete libertas from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete libertas firmware"
+    - [Packaging]: Remove obsolete libertas firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete mwl8k from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete mwl8k firmware"
+    - [Packaging]: Remove obsolete mwl8k firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete myricom from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete myricom firmware"
+    - [Packaging]: Remove obsolete myricom firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete sxg from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete sxg firmware"
+    - [Packaging]: Remove obsolete sxg firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete tda7706 from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete tda1004x firmware"
+    - [Packaging]: Remove obsolete tda1004x firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete ti-connectivity from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete ti-connectivity firmware"
+    - [Packaging]: Remove obsolete ti-connectivity firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete tr_smctr from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete tr_smctr firmware"
+    - [Packaging]: Remove obsolete tr_smctr firmware
+    - SAUCE: Revert "UBUNTU: SAUCE: Remove obsolete bnx2x from WHENCE"
+    - SAUCE: Revert "UBUNTU: Remove obsolete bnx2x firmware files"
+    - [Packaging]: Remove obsolete bnx2x firmware files
+    - SAUCE: Revert "UBUNTU: Revert "linux-firmware: Add firmware files for Siano DTV devices""
+    - [Packaging] Revert "linux-firmware: Add firmware files for Siano DTV devices"
+    - SAUCE: Revert "UBUNTU: Remove amd64-microcode"
+    - [Packaging] Remove amd64-microcode
+
+ -- Juerg Haefliger <juergh@canonical.com>  Thu, 24 Feb 2022 11:42:25 +0100
+
 linux-firmware (20220217.git6342082c-0ubuntu1) jammy; urgency=medium
 
   * Include the QCA WCN 6856 v2.1 support (LP: #1954938)
