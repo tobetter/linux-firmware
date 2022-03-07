@@ -1,3 +1,55 @@
+linux-firmware (1.187.28) focal; urgency=medium
+
+  * bnx2x: Add FW 7.13.21.0 (LP: #1962155)
+    - bnx2x: Add FW 7.13.20.0
+    - bnx2x: Add FW 7.13.21.0
+  * Add missing firmware for HWE 5.15 kernel (LP: #1962299)
+    - linux-firmware: wilc1000: add wilc1000 v15.4 FW
+    - linux-firmware: Update AMD SEV firmware
+    - linux-firmware: Update AMD SEV firmware
+    - linux-firmware: Update AMD SEV firmware
+    - Mellanox: Add new mlxsw_spectrum firmware xx.2008.2406
+    - amdgpu: add initial support for navy flounder
+    - amdgpu: add arcturus firmware
+    - rtl_nic: add new firmware for RTL8153 and RTL8156 series
+    - amdgpu: update navy flounder firmware from 21.10
+    - amdgpu: update arcturus firmware from 21.10
+    - firmware: nvidia: Add VIC firmware for Tegra194
+    - amdgpu: update navy flounder firmware from 21.20
+    - amdgpu: update arcturus firmware from 21.20
+    - firmware/i915/guc: Add GuC v62.0.0 for all platforms
+    - firmware/i915/guc: Add GuC v62.0.3 for ADL-P
+    - firmware/i915/guc: Add HuC v7.9.3 for TGL & DG1
+    - iwlwifi: add ty firmware from Core63-43
+    - i915: Add v2.12 DMC for TGL
+    - i915: Add v2.03 DMC for RKL
+    - amdgpu: update arcturus firmware from 21.30
+    - amdgpu: update navy flounder firmware from 21.30
+    - amdgpu: add initial vangogh support
+    - rtl_nic: update firmware of RTL8153C
+    - linux-firmware: Update AMD SEV firmware
+    - amdgpu: update VCN firmware for vangogh
+    - amdgpu: update VCN firmware for navy flounder
+    - amdgpu: update arcturus firmware from 21.40
+    - amdgpu: update navy flounder firmware from 21.40
+    - amdgpu: add cyan skillfish firmware from 21.40
+    - amdgpu: update vangogh firmware from 21.40
+    - amdgpu: update vangogh DMCUB firmware
+    - linux-firmware: wilc1000: update WILC1000 firmware to v15.4.1
+    - iwlwifi: add new FWs from core63-136 release
+    - amdgpu: Add aldebaran firmware from 21.50
+    - amdgpu: Update arcturus firmware from 21.50
+    - amdgpu: Update cyan skillfish2 firmware from 21.50
+    - amdgpu: Update navy flounder firmware from 21.50
+    - amdgpu: Update vangogh firmware from 21.50
+    - WHENCE: link to similar config file for rtl8821a support
+  * Intermittent AX211 iwlwifi RT ucode init failed -110 at boot (LP: #1962515)
+    - iwlwifi: add new FWs from core64-96 release
+  * mt7921e device disappear after warm boot stress (LP: #1963614)
+    - linux-firmware: update firmware for mediatek bluetooth chip(MT7921)
+
+ -- Juerg Haefliger <juergh@canonical.com>  Mon, 07 Mar 2022 09:29:24 +0100
+
 linux-firmware (1.187.27) focal; urgency=medium
 
   * Include the QCA WCN 6856 v2.1 support (LP: #1954938)
