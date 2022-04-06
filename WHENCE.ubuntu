@@ -362,6 +362,7 @@ File: intel/sof-tplg/v1.9.2/sof-adl-rt711-l0-rt1316-l13-rt714-l2.tplg
 File: intel/sof-tplg/v1.9.2/sof-adl-rt711-l2-rt1316-l01-rt714-l3.tplg
 File: intel/sof-tplg/v1.9.2/sof-adl-rt711.tplg
 File: intel/sof-tplg/v1.9.2/sof-adl-sdw-max98373-rt5682.tplg
+File: intel/sof-tplg/v1.9.3-tplg2/sof-adl-rt711-l2-rt1316-l01.tplg
 Link: intel/sof-tplg/sof-adl-max98357a-rt5682.tplg -> v1.9.2/sof-adl-max98357a-rt5682.tplg
 Link: intel/sof-tplg/sof-adl-nocodec.tplg -> v1.9.2/sof-adl-nocodec.tplg
 Link: intel/sof-tplg/sof-adl-rt1316-l12-rt714-l0.tplg -> v1.9.2/sof-adl-rt1316-l12-rt714-l0.tplg
@@ -374,6 +375,7 @@ Link: intel/sof-tplg/sof-adl-rt711-l0-rt1316-l13-rt714-l2.tplg -> v1.9.2/sof-adl
 Link: intel/sof-tplg/sof-adl-rt711-l2-rt1316-l01-rt714-l3.tplg -> v1.9.2/sof-adl-rt711-l2-rt1316-l01-rt714-l3.tplg
 Link: intel/sof-tplg/sof-adl-rt711.tplg -> v1.9.2/sof-adl-rt711.tplg
 Link: intel/sof-tplg/sof-adl-sdw-max98373-rt5682.tplg -> v1.9.2/sof-adl-sdw-max98373-rt5682.tplg
+Link: intel/sof-tplg/sof-adl-rt711-l2-rt1316-l01.tplg -> v1.9.3-tplg2/sof-adl-rt711-l2-rt1316-l01.tplg
 
 Licence: Redistributable. See LICENSE.sof for details.
 
