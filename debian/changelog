@@ -1,3 +1,10 @@
+linux-firmware (1.187.30) focal; urgency=medium
+
+  * alsa/sdw: Fix the audio issue on a Dell machine without internal mic (LP: #1966841)
+    - SAUCE: Add a new tplg file sof-adl-rt711-l2-rt1316-l01.tplg
+
+ -- Juerg Haefliger <juergh@canonical.com>  Mon, 11 Apr 2022 16:26:44 +0200
+
 linux-firmware (1.187.29) focal; urgency=medium
 
   * mt7921e device disappear after warm boot stress (LP: #1963614)
