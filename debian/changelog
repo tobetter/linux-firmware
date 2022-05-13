@@ -1,3 +1,16 @@
+linux-firmware (1.187.31) focal; urgency=medium
+
+  * The system hangs when HDMI external monitor involved on AMD Yellow Carp platforms (LP: #1970293)
+    - amdgpu: update yellow carp DMCUB firmware
+  * [SRU][F/J] Update firmware of MT7922 (LP: #1970923)
+    - linux-firmware: update firmware for MT7922 WiFi device
+    - linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
+  * [SRU][F][linux-firmware] UBUNTU: SAUCE: Update firmware of WCN6855 (LP: #1972806)
+    - SAUCE: WCN6855 hw2.0: update board-2.bin
+    - SAUCE: WCN6855 hw2.0: 1.1: add WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.9
+
+ -- Juerg Haefliger <juergh@canonical.com>  Fri, 13 May 2022 13:35:44 +0200
+
 linux-firmware (1.187.30) focal; urgency=medium
 
   * alsa/sdw: Fix the audio issue on a Dell machine without internal mic (LP: #1966841)
