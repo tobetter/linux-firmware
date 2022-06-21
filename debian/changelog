@@ -1,3 +1,12 @@
+linux-firmware (20220329.git681281e4-0ubuntu3.3) jammy; urgency=medium
+
+  * [SRU][F][linux-firmware] UBUNTU: SAUCE: Update firmware of WCN6855 (LP: #1972806)
+    - SAUCE: WCN6855 hw2.0: 1.1: add WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.9
+  * Add symlinks to enable StarFive boards AP6212 Wi-Fi module (LP: #1977872)
+    - WHENCE: add symlinks for StarFive based boards
+
+ -- Juerg Haefliger <juerg.haefliger@canonical.com>  Tue, 21 Jun 2022 11:28:31 +0200
+
 linux-firmware (20220329.git681281e4-0ubuntu3.2) jammy; urgency=medium
 
   * [SRU][F/J] Update firmware of MT7922 (LP: #1970923)
