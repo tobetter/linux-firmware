@@ -1,3 +1,10 @@
+linux-firmware (1.187.32) focal; urgency=medium
+
+  * Enable Asus USB-BT500 Bluetooth dongle(0b05:190e) (LP: #1976613)
+    - rtl_bt: Add rtl8761b firmware
+
+ -- Juerg Haefliger <juerg.haefliger@canonical.com>  Tue, 21 Jun 2022 11:33:57 +0200
+
 linux-firmware (1.187.31) focal; urgency=medium
 
   * The system hangs when HDMI external monitor involved on AMD Yellow Carp platforms (LP: #1970293)
